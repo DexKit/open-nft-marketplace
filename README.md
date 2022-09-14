@@ -2,7 +2,7 @@
 
 [![NFT marketplace](https://img.youtube.com/vi/9UxtgAkNG1k/0.jpg)](https://www.youtube.com/watch?v=9UxtgAkNG1k 'Marketplace by DexKit')
 
-This marketplace is the DexKit showcase on how to use 0x v4 nft smart contracts on a production app. Additionally, we are building a zero code solution with premium features to help artists deploy their own marketplace in an easy and secure way.
+This marketplace is the DexKit open source showcase on how to use 0x v4 nft smart contracts on a production app. Additionally, we are building a [zero code solution](https://whitelabel-nft.dexkit.com/admin/setup) with premium features to help artists deploy their own marketplace in an easy and secure way. Check our docs about it [here](https://docs.dexkit.com/defi-products/nft-marketplace/overview).
 
 On this marketplace you can make offers and listings of ERC721 Tokens on the chains supported by 0x smart contracts, namely: Ethereum, Binance Smart Chain, Polygon, Fantom, Avalanche, Celo and Optimism.
 
@@ -47,7 +47,7 @@ It is also planned to extract all common hooks and state used to interact with t
 
 # Customization
 
-If you need a zero code solution we are building one currently in beta at [wizard](https://whitelabel-nft.dexkit.com/admin/setup), check our [docs](https://docs.dexkit.com/defi-products/use-cases/for-entrepreneurs/nft-marketplace) as well about it. Instead, if you want to deploy your own custom solution using this repo, please fork it, update the app.json file accordingly on the config folder and then deploy on Vercel (Recommended) or Heroku.
+If you need a zero code solution we are building one currently in beta at [wizard](https://whitelabel-nft.dexkit.com/admin/setup), check our [docs](https://docs.dexkit.com/defi-products/nft-marketplace/overview) as well about it. Instead, if you want to deploy your own custom solution using this repo, please fork it, update the app.json file accordingly on the config folder and then deploy on Vercel (Recommended) or Heroku.
 
 # Missing feature?
 
