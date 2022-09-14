@@ -1,0 +1,455 @@
+{
+  "ID": {
+    "defaultMessage": "ID"
+  },
+  "Listing": {
+    "defaultMessage": "Listagem"
+  },
+  "Network": {
+    "defaultMessage": "Rede",
+    "description": "Network caption"
+  },
+  "accept": {
+    "defaultMessage": "Aceitar",
+    "description": "Accept"
+  },
+  "accept.offer.transaction.title": {
+    "defaultMessage": "Aceitar oferta de {amount} {symbol} para o ativo {collectionName} #{id}"
+  },
+  "accordion.details": {
+    "defaultMessage": "Detalhes",
+    "description": "Details in the nft accordion"
+  },
+  "advanced": {
+    "defaultMessage": "Avançado",
+    "description": "Make listing advanced accordion"
+  },
+  "advanced.info": {
+    "defaultMessage": "Somente o endereço inserido abaixo pode comprar esta listagem. Se estiver vazio, qualquer conta pode comprar esta listagem."
+  },
+  "and.made.with.love.by": {
+    "defaultMessage": "e feito com ❤️ por",
+    "description": "and made with ❤️ by"
+  },
+  "approve.asset.description": {
+    "defaultMessage": "para App"
+  },
+  "approve.asset.title": {
+    "defaultMessage": "Aprovar ativo"
+  },
+  "approve.for.all": {
+    "defaultMessage": "Aprovar coleção {collectionName} para negociação",
+    "description": "Approve collection for listing"
+  },
+  "approve.token": {
+    "defaultMessage": "Aprovar {name} ({symbol}) para negociação",
+    "description": "Approve collection for listing"
+  },
+  "asset.will.be.added.to.favorites": {
+    "defaultMessage": "Este ativo será adicionado aos seus favoritos"
+  },
+  "attributes": {
+    "defaultMessage": "Atributos",
+    "description": "Attributes accordion"
+  },
+  "available.balance": {
+    "defaultMessage": "Saldo disponível"
+  },
+  "balance": {
+    "defaultMessage": "Saldo"
+  },
+  "buy": {
+    "defaultMessage": "Comprar",
+    "description": "Buy asset button text"
+  },
+  "buy.asset": {
+    "defaultMessage": "Comprar ativo",
+    "description": "Buy asset title"
+  },
+  "buy.asset.transaction.title": {
+    "defaultMessage": "Comprar {collectionName} #{id} por {amount} {symbol}"
+  },
+  "buy.now": {
+    "defaultMessage": "Comprar agora"
+  },
+  "buyer.address": {
+    "defaultMessage": "Endereço do comprador",
+    "description": "Buyer address input label"
+  },
+  "cancel": {
+    "defaultMessage": "Cancelar",
+    "description": "Cancel"
+  },
+  "cancel.listing": {
+    "defaultMessage": "Cancelar listagem"
+  },
+  "cancel.order": {
+    "defaultMessage": "Cancelar listagem para o ativo {collectionName} #{id}",
+    "description": "Title for the listing cancel transaction"
+  },
+  "clear.transactions": {
+    "defaultMessage": "Limpar transações",
+    "description": "Clear transactions button label"
+  },
+  "collection": {
+    "defaultMessage": "Coleção"
+  },
+  "collections": {
+    "defaultMessage": "Coleções"
+  },
+  "confirm": {
+    "defaultMessage": "Confirmar",
+    "description": "Confirm"
+  },
+  "confirm.sign.message": {
+    "defaultMessage": "Por favor, assine a mensagem em sua carteira"
+  },
+  "confirm.the.transaction.on.your.wallet": {
+    "defaultMessage": "Por favor, confirme a transação em sua carteira",
+    "description": "Transaction dialog message before transaction be confirmed in the wallet"
+  },
+  "connect.now": {
+    "defaultMessage": "Conectar agora"
+  },
+  "connect.wallet": {
+    "defaultMessage": "Conectar carteira"
+  },
+  "connect.your.wallet": {
+    "defaultMessage": "Conecte sua carteira",
+    "description": "Connect wallet message"
+  },
+  "contact.us": {
+    "defaultMessage": "Contate-nos",
+    "description": "Contact us"
+  },
+  "contract.address": {
+    "defaultMessage": "Endereço do contrato"
+  },
+  "copied": {
+    "defaultMessage": "Copiado!",
+    "description": "Copied text"
+  },
+  "copy": {
+    "defaultMessage": "Copiar",
+    "description": "Copy text"
+  },
+  "create.listing": {
+    "defaultMessage": "Criar listagem"
+  },
+  "create.offer": {
+    "defaultMessage": "Criar oferta"
+  },
+  "created.by": {
+    "defaultMessage": "Criado por"
+  },
+  "creating.a.listing": {
+    "defaultMessage": "Criando uma listagem"
+  },
+  "creating.an.offer": {
+    "defaultMessage": "Criando uma oferta"
+  },
+  "date": {
+    "defaultMessage": "Data"
+  },
+  "decimals": {
+    "defaultMessage": "Decimais"
+  },
+  "description": {
+    "defaultMessage": "Descrição",
+    "description": "Description Accordion"
+  },
+  "do.you.want.to.remove.nft": {
+    "defaultMessage": "Deseja remover este NFT dos seus favoritos?"
+  },
+  "error": {
+    "defaultMessage": "Erro"
+  },
+  "error.while.importing.nft": {
+    "defaultMessage": "Erro ao importar NFT: {error}"
+  },
+  "expiration": {
+    "defaultMessage": "Expiração",
+    "description": "Expiration"
+  },
+  "expired": {
+    "defaultMessage": "Expirado"
+  },
+  "expires.in": {
+    "defaultMessage": "Expira em"
+  },
+  "expiry": {
+    "defaultMessage": "Expiração"
+  },
+  "explore": {
+    "defaultMessage": "Explorar",
+    "description": "Collection card explorer button"
+  },
+  "exporation": {
+    "defaultMessage": "Expiração"
+  },
+  "favorite": {
+    "defaultMessage": "Favorito"
+  },
+  "fiat.price": {
+    "defaultMessage": "{currency} Preço",
+    "description": "Fiat price"
+  },
+  "from": {
+    "defaultMessage": "De",
+    "description": "From"
+  },
+  "home": {
+    "defaultMessage": "Home"
+  },
+  "import": {
+    "defaultMessage": "Importar"
+  },
+  "import.nft": {
+    "defaultMessage": "Importar NFT"
+  },
+  "import.token": {
+    "defaultMessage": "Importar token",
+    "description": "Import token dialog title"
+  },
+  "insufficient.funds": {
+    "defaultMessage": "Fundos insuficientes"
+  },
+  "invalid.price": {
+    "defaultMessage": "Preço inválido"
+  },
+  "is.powered.by": {
+    "defaultMessage": "é desenvolvido por",
+    "description": "is powered by"
+  },
+  "listing.price": {
+    "defaultMessage": "Preço de listagem"
+  },
+  "listings": {
+    "defaultMessage": "Listagens"
+  },
+  "make.offer": {
+    "defaultMessage": "Fazer oferta",
+    "description": "Make Offer"
+  },
+  "my.wallet": {
+    "defaultMessage": "Minha carteira"
+  },
+  "name": {
+    "defaultMessage": "Nome"
+  },
+  "nft.already.imported": {
+    "defaultMessage": "NFT já importado"
+  },
+  "nft.image": {
+    "defaultMessage": "Imagem NFT"
+  },
+  "nft.imported": {
+    "defaultMessage": "NFT importado"
+  },
+  "nft.removed.from.your.favorites": {
+    "defaultMessage": "NFT removido dos seus favoritos"
+  },
+  "nfts": {
+    "defaultMessage": "NFTs"
+  },
+  "no.available.offers": {
+    "defaultMessage": "Nenhuma oferta disponível",
+    "description": "No Available offers message"
+  },
+  "no.listings.yet": {
+    "defaultMessage": "Nenhuma listagem ainda"
+  },
+  "no.nfts.found": {
+    "defaultMessage": "Nenhum NFT encontrado"
+  },
+  "no.offers.yet": {
+    "defaultMessage": "Nenhuma oferta ainda"
+  },
+  "no.orders.found": {
+    "defaultMessage": "Nenhuma ordem encontrada"
+  },
+  "nothing.to.see.here": {
+    "defaultMessage": "Nada para ver aqui"
+  },
+  "offer": {
+    "defaultMessage": "Oferta"
+  },
+  "offers": {
+    "defaultMessage": "Ofertas"
+  },
+  "open": {
+    "defaultMessage": "Abrir"
+  },
+  "order": {
+    "defaultMessage": "Ordem"
+  },
+  "order.created": {
+    "defaultMessage": "Ordem #{id} criada"
+  },
+  "owned.by": {
+    "defaultMessage": "Propriedade de"
+  },
+  "please.connect.your.wallet": {
+    "defaultMessage": "Por favor, conecte sua carteira para ver as ordens"
+  },
+  "please.wait.for.the.block.confirmation": {
+    "defaultMessage": "Aguarde a confirmação do bloco",
+    "description": "Transaction dialog message after transaction confirmation in the wallet"
+  },
+  "post.offers": {
+    "defaultMessage": "Publicar ofertas",
+    "description": "Post offers"
+  },
+  "price": {
+    "defaultMessage": "Preço",
+    "description": "Price"
+  },
+  "price.fiat": {
+    "defaultMessage": "Preço {currency}"
+  },
+  "provider.not.found": {
+    "defaultMessage": "Provedor não encontrado"
+  },
+  "remove.nft": {
+    "defaultMessage": "Remover NFT",
+    "description": "Remove nft dialog title"
+  },
+  "search.for.a.nft": {
+    "defaultMessage": "Pesquisar um NFT"
+  },
+  "sell": {
+    "defaultMessage": "Vender",
+    "description": "Sell button"
+  },
+  "sell.asset": {
+    "defaultMessage": "Vender ativo",
+    "description": "Sell asset dialog title"
+  },
+  "share": {
+    "defaultMessage": "Compartilhar",
+    "description": "Menu share option in offers table"
+  },
+  "share.your.address": {
+    "defaultMessage": "Compartilhar seu endereço"
+  },
+  "sign.message": {
+    "defaultMessage": "Assinar mensagem",
+    "description": "Sign message dialog title"
+  },
+  "something.went.wrong": {
+    "defaultMessage": "Ops! Algo deu errado",
+    "description": "Something went wrong error message"
+  },
+  "start.posting.offers.collection": {
+    "defaultMessage": "Comece a postar ofertas para esta coleção",
+    "description": "Start posting offers for this collection"
+  },
+  "status": {
+    "defaultMessage": "Status"
+  },
+  "switch": {
+    "defaultMessage": "Trocar",
+    "description": "switch"
+  },
+  "switch.network": {
+    "defaultMessage": "Trocar rede",
+    "description": "Switch network dialog title"
+  },
+  "switch.network.content.text": {
+    "defaultMessage": "Por favor, troque para a rede {chainName} para criar listagens ou ofertas para este ativo",
+    "description": "Switch network dialog content text"
+  },
+  "symbol": {
+    "defaultMessage": "Símbolo"
+  },
+  "the.buyer.will.pay.percentage.in.fees": {
+    "defaultMessage": "O comprador irá pagar {price} {symbol} +{percentage} em taxas"
+  },
+  "the.nft.has.no.metadata": {
+    "defaultMessage": "O NFT não tem metadados"
+  },
+  "token": {
+    "defaultMessage": "Token"
+  },
+  "token.added": {
+    "defaultMessage": "Token adicionado"
+  },
+  "token.already.imported": {
+    "defaultMessage": "Token já importado"
+  },
+  "token.id": {
+    "defaultMessage": "ID do token"
+  },
+  "total": {
+    "defaultMessage": "Total"
+  },
+  "transaction": {
+    "defaultMessage": "Transação"
+  },
+  "transaction.confirm.transaction": {
+    "defaultMessage": "Confirmar transação"
+  },
+  "transaction.confirmed": {
+    "defaultMessage": "Transação confirmada"
+  },
+  "transaction.failed": {
+    "defaultMessage": "Falha na transação"
+  },
+  "transaction.waiting.confirmation": {
+    "defaultMessage": "Aguardando confirmação"
+  },
+  "transactions": {
+    "defaultMessage": "Transações",
+    "description": "Transactions dialog title"
+  },
+  "try.again": {
+    "defaultMessage": "Tente novamente",
+    "description": "Try again"
+  },
+  "type": {
+    "defaultMessage": "Tipo"
+  },
+  "unknown.collection": {
+    "defaultMessage": "Coleção desconhecida"
+  },
+  "unknown.name": {
+    "defaultMessage": "Nome desconhecido"
+  },
+  "unknown.token": {
+    "defaultMessage": "Token desconhecido"
+  },
+  "view": {
+    "defaultMessage": "Visualizar"
+  },
+  "view.order": {
+    "defaultMessage": "Visualizar ordem",
+    "description": "View Order"
+  },
+  "view.transaction": {
+    "defaultMessage": "Visualizar transação",
+    "description": "View transaction"
+  },
+  "visible.for": {
+    "defaultMessage": "Visível para"
+  },
+  "wallet": {
+    "defaultMessage": "Carteira"
+  },
+  "wallet.is.not.connected": {
+    "defaultMessage": "A carteira não está conectada"
+  },
+  "you": {
+    "defaultMessage": "Você",
+    "description": "You"
+  },
+  "you.are.paying.percentage.in.fees": {
+    "defaultMessage": "Você está pagando {price} {symbol} + {percentage} em taxas"
+  },
+  "your.order.was.created.successfully": {
+    "defaultMessage": "Sua ordem foi criada com sucesso"
+  },
+  "your.transaction.has.been.confirmed": {
+    "defaultMessage": "Sua transação foi confirmada",
+    "description": "Your transaction has been confirmed"
+  }
+}

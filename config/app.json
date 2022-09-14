@@ -1,0 +1,238 @@
+{
+  "name": "Kittygotchi",
+  "locale": "en-US",
+  "currency": "usd",
+  "theme": "kittygotchi",
+  "url": "https://www.kittygotchi.com",
+  "logo": {
+    "url": "/assets/images/market-logo.svg",
+    "height": "",
+    "width": ""
+  },
+  "favicon_url": "",
+  "social": [
+    { "type": "instagram", "handle": "dexkit_crew" },
+    { "type": "twitter", "handle": "dexkit" }
+  ],
+  "transak": {
+    "enabled": true
+  },
+  "fees": [
+    {
+      "amount_percentage": 1,
+      "recipient": "0x5bD68B4d6f90Bcc9F3a9456791c0Db5A43df676d"
+    }
+  ],
+  "format": {
+    "date": "MM/DD/YYYY",
+    "datetime": "MM/DD/YYYY HH:mm:ss"
+  },
+  "collections": [
+    {
+      "image": "/assets/kittygotchi/banner_eth.svg",
+      "name": "Kittygotchi",
+      "backgroundImage": "/assets/kittygotchi/banner_eth.svg",
+      "chainId": 1,
+      "contractAddress": "0xe76591AD590765e9Ab9EdE82BEa274aFcF5Ce703",
+      "description": "",
+      "uri": "kittygotchieth"
+    },
+    {
+      "image": "/assets/kittygotchi/banner_bsc.svg",
+      "name": "Kittygotchi",
+      "backgroundImage": "/assets/kittygotchi/banner_bsc.svg",
+      "chainId": 56,
+      "contractAddress": "0xf44112926506318e3Aace4381B2D76791D980Ac3",
+      "description": "",
+      "uri": "kittygotchibsc"
+    },
+    {
+      "image": "/assets/kittygotchi/banner_polygon.svg",
+      "name": "Kittygotchi",
+      "backgroundImage": "/assets/kittygotchi/banner_polygon.svg",
+      "chainId": 137,
+      "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
+      "description": "",
+      "uri": "kittygotchi"
+    }
+  ],
+  "tokens": [
+    {
+      "name": "Test tokens",
+      "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+      "keywords": ["faucet", "test"],
+      "tags": {
+        "faucet": {
+          "name": "Faucet token for testing on ropsten",
+          "description": "ERC20 tokens for testing"
+        }
+      },
+      "timestamp": "2020-06-12T00:00:00+00:00",
+      "tokens": [
+        {
+          "chainId": 3,
+          "address": "0xfab46e002bbf0b4509813474841e0716e6730136",
+          "symbol": "FAU",
+          "name": "FaucetToken",
+          "decimals": 18,
+          "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+          "tags": ["faucet", "test"]
+        },
+        {
+          "chainId": 4,
+          "address": "0xFab46E002BbF0b4509813474841E0716E6730136",
+          "symbol": "FAU",
+          "name": "FaucetToken",
+          "decimals": 18,
+          "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+          "tags": ["faucet", "test"]
+        },
+        {
+          "chainId": 3,
+          "address": "0xad6d458402f60fd3bd25163575031acdce07538d",
+          "symbol": "DAI",
+          "name": "DAI Stable Coin",
+          "decimals": 18,
+          "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+          "tags": ["faucet", "test"]
+        },
+        {
+          "chainId": 3,
+          "address": "0xc778417e063141139fce010982780140aa0cd5ab",
+          "symbol": "WETH",
+          "name": "Wrapped Ether",
+          "decimals": 18,
+          "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+          "tags": ["weth", "test"]
+        },
+        {
+          "chainId": 137,
+          "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+          "symbol": "WMATIC",
+          "name": "Wrapped Matic",
+          "decimals": 18,
+          "logoURI": "https://polygonscan.com/token/images/wMatic_32.png",
+          "tags": ["polygon", "wrapped token"]
+        },
+        {
+          "chainId": 80001,
+          "address": "0xa6fa4fb5f76172d178d61b04b0ecd319c5d1c0aa",
+          "symbol": "WETH",
+          "name": "Wrapped ETH",
+          "decimals": 18,
+          "logoURI": "https://polygonscan.com/token/images/wMatic_32.png",
+          "tags": ["polygon", "wrapped token"]
+        },
+        {
+          "chainId": 137,
+          "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "symbol": "USDC",
+          "name": "USD Coin",
+          "decimals": 6,
+          "logoURI": "https://polygonscan.com/token/images/centre-usdc_32.png",
+          "tags": ["polygon", "stable coin"]
+        }
+      ],
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+      }
+    }
+  ],
+  "pages": {
+    "home": {
+      "sections": [
+        {
+          "type": "featured",
+          "title": "Kittygotchi Marketplace",
+          "items": [
+            {
+              "type": "asset",
+              "chainId": 137,
+              "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
+              "tokenId": "42"
+            },
+            {
+              "type": "asset",
+              "chainId": 137,
+              "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
+              "tokenId": "50"
+            },
+            {
+              "type": "collection",
+              "title": "Kittygotchi",
+              "chainId": 137,
+              "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
+              "backgroundImageUrl": "/assets/kittygotchi/banner.svg"
+            }
+          ]
+        },
+        {
+          "type": "collections",
+          "title": "Featured collections",
+          "items": [
+            {
+              "featured": true,
+              "type": "collection",
+              "title": "Kittygotchi",
+              "chainId": 137,
+              "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
+              "backgroundImageUrl": "/assets/kittygotchi/banner_polygon.svg"
+            },
+            {
+              "type": "collection",
+              "title": "Kittygotchi",
+              "chainId": 56,
+              "contractAddress": "0xf44112926506318e3Aace4381B2D76791D980Ac3",
+              "backgroundImageUrl": "/assets/kittygotchi/banner_bsc.svg"
+            },
+            {
+              "type": "collection",
+              "title": "Kittygotchi",
+              "chainId": 1,
+              "contractAddress": "0xe76591AD590765e9Ab9EdE82BEa274aFcF5Ce703",
+              "backgroundImageUrl": "/assets/kittygotchi/banner_eth.svg"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "title": "Marketplace Features",
+          "videoUrl": "https://www.youtube.com/embed/9UxtgAkNG1k",
+          "embedType": "youtube"
+        },
+        {
+          "variant": "dark",
+          "type": "call-to-action",
+          "title": "Kittygotchi",
+          "subtitle": "See your kitties on ETH, BSC and Polygon networks",
+          "button": {
+            "title": "See all",
+            "url": "/collections"
+          },
+          "items": [
+            {
+              "type": "asset",
+              "chainId": 137,
+              "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
+              "tokenId": "42"
+            },
+            {
+              "type": "asset",
+              "chainId": 137,
+              "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
+              "tokenId": "50"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Kittygotchi",
+      "description": "Kittygochi collection: create cute Kitty, make it unique, feed him to earn attack, speed, and defense, he will be here for you. Your Kitty gives you special powers on DexKit Dashboard"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Test tokens",
+  "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+  "keywords": ["faucet", "test"],
+  "tags": {
+    "faucet": {
+      "name": "Faucet token for testing on ropsten",
+      "description": "ERC20 tokens for testing"
+    }
+  },
+  "timestamp": "2020-06-12T00:00:00+00:00",
+  "tokens": [
+    {
+      "chainId": 3,
+      "address": "0xfab46e002bbf0b4509813474841e0716e6730136",
+      "symbol": "FAU",
+      "name": "FaucetToken",
+      "decimals": 18,
+      "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+      "tags": ["faucet", "test"]
+    },
+    {
+      "chainId": 4,
+      "address": "0xFab46E002BbF0b4509813474841E0716E6730136",
+      "symbol": "FAU",
+      "name": "FaucetToken",
+      "decimals": 18,
+      "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+      "tags": ["faucet", "test"]
+    },
+    {
+      "chainId": 3,
+      "address": "0xad6d458402f60fd3bd25163575031acdce07538d",
+      "symbol": "DAI",
+      "name": "DAI Stable Coin",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+      "tags": ["faucet", "test"]
+    },
+    {
+      "chainId": 3,
+      "address": "0xc778417e063141139fce010982780140aa0cd5ab",
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+      "tags": ["weth", "test"]
+    },
+    {
+      "chainId": 80001,
+      "address": "0xa6fa4fb5f76172d178d61b04b0ecd319c5d1c0aa",
+      "symbol": "WETH",
+      "name": "Wrapped ETH",
+      "decimals": 18,
+      "logoURI": "https://polygonscan.com/token/images/wMatic_32.png",
+      "tags": ["polygon", "wrapped token"]
+    },
+    {
+      "chainId": 137,
+      "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "logoURI": "https://polygonscan.com/token/images/centre-usdc_32.png",
+      "tags": ["polygon", "stable coin"]
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collections": [
+    {
+      "image": "https://dweb.link/ipfs/QmZfhEwTcTvXy4GfcyNvqDvGK6qzCFbZeTX71hUT3RWL8X",
+      "name": "Coin League Champions",
+      "backgroundImage": "https://dweb.link/ipfs/QmZfhEwTcTvXy4GfcyNvqDvGK6qzCFbZeTX71hUT3RWL8X",
+      "chainId": 80001,
+      "contractAddress": "0x05b93425e4b44c9042ed97b7a332ab1575ebd25d",
+      "description": "",
+      "uri": "coinleaguechampions"
+    },
+    {
+      "image": "https://dweb.link/ipfs/QmZfhEwTcTvXy4GfcyNvqDvGK6qzCFbZeTX71hUT3RWL8X",
+      "name": "Coin League Champions",
+      "backgroundImage": "https://dweb.link/ipfs/QmZfhEwTcTvXy4GfcyNvqDvGK6qzCFbZeTX71hUT3RWL8X",
+      "chainId": 80001,
+      "contractAddress": "0x05b93425e4b44c9042ed97b7a332ab1575ebd25d",
+      "description": "",
+      "uri": "coinleaguechampions"
+    }
+  ]
+}
