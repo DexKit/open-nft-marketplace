@@ -109,6 +109,7 @@ const MainLayout: React.FC<Props> = ({ children, noSsr, disablePadding }) => {
         );
       };
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const [isDrawerOpen, setIsDrawerOpen] = useAtom(drawerIsOpenAtom);
