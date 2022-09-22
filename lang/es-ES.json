@@ -71,7 +71,7 @@
     "description": "Título para Comprar activo"
   },
   "buy.asset.transaction.title": {
-    "defaultMessage": "Buy {collectionName} #{id} for {amount} {symbol}"
+    "defaultMessage": "Comprar {collectionName} #{id} por {amount} {symbol}"
   },
   "buy.now": {
     "defaultMessage": "Comprar ahora"
