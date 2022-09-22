@@ -1,8 +1,8 @@
-# NFT Marketplace
+# PepeTrades NFT Marketplace (Forked+Mod)
 
-[![NFT marketplace](https://img.youtube.com/vi/9UxtgAkNG1k/0.jpg)](https://www.youtube.com/watch?v=9UxtgAkNG1k 'Marketplace by DexKit')
+[![PepeTrades NFT marketplace](https://i.ibb.co/C2Xv3Cj/2022-05-pepe-mastering.png)]
 
-This marketplace is the DexKit open source showcase on how to use 0x v4 nft smart contracts on a production app. Additionally, we are building a [zero code solution](https://whitelabel-nft.dexkit.com/admin/setup) with premium features to help artists deploy their own marketplace in an easy and secure way. Check our docs about it [here](https://docs.dexkit.com/defi-products/nft-marketplace/overview).
+This marketplace is DexKit's Open Source showcase on how to use 0x v4 NFT (Non-Fungible tokens) smart contracts on a production app. Additionally, we are building a [zero code solution](https://whitelabel-nft.dexkit.com/admin/setup) with Premium features to help artists deploy their own marketplace in an easy and secure way. Check our docs about it [here](https://docs.dexkit.com/defi-products/nft-marketplace/overview).
 
 On this marketplace you can make offers and listings of ERC721 Tokens on the chains supported by 0x smart contracts, namely: Ethereum, Binance Smart Chain, Polygon, Fantom, Avalanche, Celo and Optimism.
 
