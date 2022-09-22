@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  staticPageGenerationTimeout: 1000,
+  staticPageGenerationTimeout: 10000,
   images: {
     domains: [
       'dweb.link',
@@ -10,6 +10,7 @@ module.exports = {
       'raw.githubusercontent.com',
       'arpeggi.io',
       'arweave.net',
+      'metadata.ens.domains',
     ],
   },
 };

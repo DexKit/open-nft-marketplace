@@ -1,6 +1,7 @@
 import { Box, Stack, Typography } from '@mui/material';
 
 import { useAsset, useAssetMetadata } from '../../../hooks/nft';
+import { truncateTokenId } from '../../../utils/blockchain';
 
 interface Props {
   address: string;
@@ -25,7 +26,7 @@ export function AssetPageTitle({ address, id }: Props) {
         <Typography variant="h5" component="h1">
           {metadata?.name !== '' && metadata?.name !== undefined
             ? metadata?.name
-            : `${asset?.collectionName} #${asset?.id}`}
+            : `${asset?.collectionName} #${truncateTokenId(asset?.id)}`}
         </Typography>
       </Box>
     </Stack>
