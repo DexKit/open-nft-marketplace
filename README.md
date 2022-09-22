@@ -1,6 +1,6 @@
 # PepeTrades NFT Marketplace (Forked+Mod)
 
-[![PepeTrades NFT marketplace](https://i.ibb.co/C2Xv3Cj/2022-05-pepe-mastering.png)]
+[!PepeTrades NFT marketplace](https://i.ibb.co/C2Xv3Cj/2022-05-pepe-mastering.png)
 
 This marketplace is DexKit's Open Source showcase on how to use 0x v4 NFT (Non-Fungible tokens) smart contracts on a production app. Additionally, we are building a [zero code solution](https://whitelabel-nft.dexkit.com/admin/setup) with Premium features to help artists deploy their own marketplace in an easy and secure way. Check our docs about it [here](https://docs.dexkit.com/defi-products/nft-marketplace/overview).
 
