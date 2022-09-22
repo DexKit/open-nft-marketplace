@@ -20,6 +20,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Link from '../../../components/Link';
 import { useAsset, useAssetMetadata } from '../../../hooks/nft';
 import AssetAttributePaper from './AssetAttributePaper';
+import { truncateErc1155TokenId } from '../../../utils/nfts';
 
 interface Props {
   description?: string;
@@ -135,7 +136,9 @@ export function AssetDetails({ description, address, id }: Props) {
                     description="Token id caption"
                   />
                 </Typography>
-                <Typography color="textSecondary">{id}</Typography>
+                <Typography color="textSecondary">
+                  {truncateErc1155TokenId(id)}
+                </Typography>
               </Stack>
 
               <Stack direction="row" justifyContent="space-between">
