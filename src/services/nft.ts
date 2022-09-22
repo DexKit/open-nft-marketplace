@@ -181,6 +181,18 @@ export async function getAssetsData(
   ids: string[],
   isERC1155 = false
 ): Promise<Asset[] | undefined> {
+  if (isENSContract(contractAddress)) {
+    const data: Asset[] = [];
+    for (const id of ids) {
+      const response = await getENSAssetData(provider, contractAddress, id);
+      if (response) {
+        data.push(response);
+      }
+    }
+    return data;
+  }
+
+
   const multicall = await getMulticallFromProvider(provider);
   const iface = new Interface(isERC1155 ? ERC1155Abi : ERC721Abi);
   let calls: CallInput[] = [];
