@@ -7,6 +7,7 @@ import optimismIcon from '../../public/assets/images/icons/optimism.svg';
 import fantomIcon from '../../public/assets/images/icons/fantom.svg';
 import ethIcon from '../../public/assets/images/icons/eth.png';
 import polygonIcon from '../../public/assets/images/icons/polygon.png';
+import arbitrumIcon from '../../public/assets/images/icons/arbitrum.png';
 
 const infuraKey = process.env.INFURA_API_KEY;
 
@@ -109,5 +110,16 @@ export const NETWORKS: { [key: number]: Network } = {
     wrappedAddress: '0x4200000000000000000000000000000000000006',
     imageUrl: optimismIcon.src,
     providerRpcUrl: 'https://mainnet.optimism.io',
+  },
+  [ChainId.Arbitrum]: {
+    chainId: ChainId.Arbitrum,
+    symbol: 'ETH',
+    explorerUrl: 'https://arbiscan.io/',
+    name: 'Arbitrum',
+    slug: 'arbitrum',
+    coingeckoId: 'ethereum',
+    wrappedAddress: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
+    imageUrl: arbitrumIcon.src,
+    providerRpcUrl: 'https://arb1.arbitrum.io/rpc',
   },
 };
