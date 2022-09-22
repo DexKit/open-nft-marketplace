@@ -1,479 +1,479 @@
 {
   "Confirm": {
-    "defaultMessage": "Confirm",
-    "description": "Confirm"
+    "defaultMessage": "Confirmar",
+    "description": "Confirmar"
   },
   "ID": {
     "defaultMessage": "ID"
   },
   "Listing": {
-    "defaultMessage": "Listing"
+    "defaultMessage": "Listado"
   },
   "Network": {
-    "defaultMessage": "Network",
-    "description": "Network caption"
+    "defaultMessage": "Red",
+    "description": "Título de Red"
   },
   "accept": {
-    "defaultMessage": "Accept",
-    "description": "Accept"
+    "defaultMessage": "Aceptar",
+    "description": "Aceptar"
   },
   "accept.offer.transaction.title": {
-    "defaultMessage": "Accept offer of {amount} {symbol} for the asset {collectionName} #{id}"
+    "defaultMessage": "Aceptar oferta de {amount} {symbol} por el activo {collectionName} #{id}"
   },
   "accordion.details": {
-    "defaultMessage": "Details",
-    "description": "Details in the nft accordion"
+    "defaultMessage": "Detalles",
+    "description": "Detalles en el acordeón NFT"
   },
   "advanced": {
-    "defaultMessage": "Advanced",
-    "description": "Make listing advanced accordion"
+    "defaultMessage": "Avanzado",
+    "description": "Hacer lista avanzada de acordeón"
   },
   "advanced.info": {
-    "defaultMessage": "Only the address entered below can buy this listing. If empty, any account can buy this listing."
+    "defaultMessage": "Solo la dirección mostrada debajo puede comprar este listado. Si está vacío, cualquier cuenta puede comprar este listado."
   },
   "and.made.with.love.by": {
-    "defaultMessage": "and made with ❤️ by",
-    "description": "and made with ❤️ by"
+    "defaultMessage": "y hecho con ❤️ por",
+    "description": "y hecho con ❤️ por"
   },
   "approve.asset.description": {
-    "defaultMessage": "to App"
+    "defaultMessage": "hacia la App"
   },
   "approve.asset.title": {
-    "defaultMessage": "Approve Asset"
+    "defaultMessage": "Aprobar activo"
   },
   "approve.for.all": {
-    "defaultMessage": "Approve collection {collectionName} to trade",
-    "description": "Approve collection for listing"
+    "defaultMessage": "Aprobar colección {collectionName} para comerciar",
+    "description": "Aprobar colección para listado"
   },
   "approve.token": {
-    "defaultMessage": "Approve {name} ({symbol}) to trade",
-    "description": "Approve collection for listing"
+    "defaultMessage": "Aprobar {name} ({symbol}) para comerciar",
+    "description": "Aprobar colección para listado"
   },
   "asset.will.be.added.to.favorites": {
-    "defaultMessage": "This asset will be added to your favorites"
+    "defaultMessage": "Este activo será añadido a tus favoritos"
   },
   "attributes": {
-    "defaultMessage": "Attributes",
-    "description": "Attributes accordion"
+    "defaultMessage": "Atributos",
+    "description": "Acordeón de atributos"
   },
   "available.balance": {
-    "defaultMessage": "Available Balance"
+    "defaultMessage": "Saldo disponible"
   },
   "balance": {
-    "defaultMessage": "Balance"
+    "defaultMessage": "Saldo"
   },
   "buy": {
-    "defaultMessage": "Buy",
-    "description": "Buy asset button text"
+    "defaultMessage": "Comprar",
+    "description": "Texto para el botón Comprar activo"
   },
   "buy.asset": {
-    "defaultMessage": "Buy Asset",
-    "description": "Buy asset title"
+    "defaultMessage": "Comprar activo",
+    "description": "Título para Comprar activo"
   },
   "buy.asset.transaction.title": {
     "defaultMessage": "Buy {collectionName} #{id} for {amount} {symbol}"
   },
   "buy.now": {
-    "defaultMessage": "Buy now"
+    "defaultMessage": "Comprar ahora"
   },
   "buyer.address": {
-    "defaultMessage": "Buyer address",
-    "description": "Buyer address input label"
+    "defaultMessage": "Dirección del comprador",
+    "description": "Etiqueta para la dirección del comprador"
   },
   "cancel": {
-    "defaultMessage": "Cancel",
-    "description": "Cancel"
+    "defaultMessage": "Cancelar",
+    "description": "Cancelar"
   },
   "cancel.listing": {
-    "defaultMessage": "Cancel listing"
+    "defaultMessage": "Cancelar listado"
   },
   "cancel.order": {
-    "defaultMessage": "Cancel listing for the asset {collectionName} #{id}",
-    "description": "Title for the listing cancel transaction"
+    "defaultMessage": "Cancelar listado para el activo {collectionName} #{id}",
+    "description": "Título para la transacción de cancelar listado"
   },
   "clear.transactions": {
-    "defaultMessage": "Clear Transactions",
-    "description": "Clear transactions button label"
+    "defaultMessage": "Borrar transacciones",
+    "description": "Etiqueta para el botón de borrar transacciones"
   },
   "collection": {
-    "defaultMessage": "Collection"
+    "defaultMessage": "Colección"
   },
   "collections": {
-    "defaultMessage": "Collections"
+    "defaultMessage": "Colección"
   },
   "confirm": {
-    "defaultMessage": "Confirm",
-    "description": "Confirm"
+    "defaultMessage": "Confirmar",
+    "description": "Confirmar"
   },
   "confirm.sign.message": {
-    "defaultMessage": "Please, sign the message on your wallet"
+    "defaultMessage": "Por favor, firma el mensaje en tu billetera"
   },
   "confirm.the.transaction.on.your.wallet": {
-    "defaultMessage": "Please, confirm the transaction on your wallet",
-    "description": "Transaction dialog message before transaction be confirmed in the wallet"
+    "defaultMessage": "Por favor, confirma la transacción en tu billetera",
+    "description": "Mensaje de diálogo de transacción antes de que se confirme la transacción en la billetera"
   },
   "connect.now": {
-    "defaultMessage": "Connect now"
+    "defaultMessage": "Conectar ahora"
   },
   "connect.wallet": {
-    "defaultMessage": "Connect Wallet"
+    "defaultMessage": "Conectar billetera"
   },
   "connect.your.wallet": {
-    "defaultMessage": "Connect your Wallet",
-    "description": "Connect wallet message"
+    "defaultMessage": "Conecta tu billetera",
+    "description": "Mensaje para conectar billetera"
   },
   "contact.us": {
-    "defaultMessage": "Contact us",
-    "description": "Contact us"
+    "defaultMessage": "Contáctanos",
+    "description": "Contáctanos"
   },
   "contract.address": {
-    "defaultMessage": "Contract Address"
+    "defaultMessage": "Dirección de contrato"
   },
   "copied": {
-    "defaultMessage": "Copied!",
-    "description": "Copied text"
+    "defaultMessage": "¡Copiado!",
+    "description": "Texto copiado"
   },
   "copy": {
-    "defaultMessage": "Copy",
-    "description": "Copy text"
+    "defaultMessage": "Copiar",
+    "description": "Copiar texto"
   },
   "create.listing": {
-    "defaultMessage": "Create Listing"
+    "defaultMessage": "Crear listado"
   },
   "create.offer": {
-    "defaultMessage": "Create Offer"
+    "defaultMessage": "Crear oferta"
   },
   "created.by": {
-    "defaultMessage": "Created by"
+    "defaultMessage": "Creado por"
   },
   "creating.a.listing": {
-    "defaultMessage": "Creating a listing"
+    "defaultMessage": "Creando un listado"
   },
   "creating.an.offer": {
-    "defaultMessage": "Creating an offer"
+    "defaultMessage": "Creando una oferta"
   },
   "currency": {
-    "defaultMessage": "Currency"
+    "defaultMessage": "Moneda"
   },
   "date": {
-    "defaultMessage": "Date"
+    "defaultMessage": "Fecha"
   },
   "decimals": {
-    "defaultMessage": "Decimals"
+    "defaultMessage": "Decimales"
   },
   "description": {
-    "defaultMessage": "Description",
-    "description": "Description Accordion"
+    "defaultMessage": "Descripción",
+    "description": "Acordeón para la descripción"
   },
   "do.you.want.to.remove.nft": {
-    "defaultMessage": "Do you want to remove this NFT from your favorites?"
+    "defaultMessage": "¿Quieres remover esta NFT de tus favoritos?"
   },
   "error": {
     "defaultMessage": "Error"
   },
   "error.while.importing.nft": {
-    "defaultMessage": "Error while importing NFT: {error}"
+    "defaultMessage": "Error importando NFT: {error}"
   },
   "expiration": {
-    "defaultMessage": "Expiration",
-    "description": "Expiration"
+    "defaultMessage": "Expiración",
+    "description": "Expiración"
   },
   "expired": {
-    "defaultMessage": "Expired"
+    "defaultMessage": "Expirado"
   },
   "expires.in": {
-    "defaultMessage": "Expires In"
+    "defaultMessage": "Expira en"
   },
   "expiry": {
-    "defaultMessage": "Expiry"
+    "defaultMessage": "Expira"
   },
   "explore": {
-    "defaultMessage": "Explore",
-    "description": "Collection card explorer button"
+    "defaultMessage": "Explora",
+    "description": "Botón del explorador de la tarjeta de colección"
   },
   "exporation": {
-    "defaultMessage": "Expiration"
+    "defaultMessage": "Expiración"
   },
   "favorite": {
-    "defaultMessage": "Favorite"
+    "defaultMessage": "Favorito"
   },
   "fiat.price": {
-    "defaultMessage": "{currency} Price",
-    "description": "Fiat price"
+    "defaultMessage": "{currency} Precio",
+    "description": "Precio FIAT"
   },
   "from": {
-    "defaultMessage": "From",
-    "description": "From"
+    "defaultMessage": "Desde",
+    "description": "Desde"
   },
   "home": {
-    "defaultMessage": "Home"
+    "defaultMessage": "Inicio"
   },
   "import": {
-    "defaultMessage": "Import"
+    "defaultMessage": "Importar"
   },
   "import.nft": {
-    "defaultMessage": "Import NFT"
+    "defaultMessage": "Importar NFT"
   },
   "import.token": {
-    "defaultMessage": "Import Token",
-    "description": "Import token dialog title"
+    "defaultMessage": "Importar Token",
+    "description": "Título del cuadro de diálogo Importar token"
   },
   "insufficient.funds": {
-    "defaultMessage": "insufficient funds"
+    "defaultMessage": "Fondos insuficientes"
   },
   "invalid.price": {
-    "defaultMessage": "Invalid price"
+    "defaultMessage": "Precio inválido"
   },
   "is.powered.by": {
-    "defaultMessage": "is powered by",
-    "description": "is powered by"
+    "defaultMessage": "es provisto por",
+    "description": "es provisto por"
   },
   "language": {
-    "defaultMessage": "Language"
+    "defaultMessage": "Idioma"
   },
   "listing.price": {
-    "defaultMessage": "Listing price"
+    "defaultMessage": "Precio de listado"
   },
   "listings": {
-    "defaultMessage": "Listings"
+    "defaultMessage": "Listados"
   },
   "make.an.offer.for.this.nft": {
-    "defaultMessage": "Make an offer for this NFT"
+    "defaultMessage": "Haz una oferta por esta NFT"
   },
   "make.an.offer.instead": {
-    "defaultMessage": "Make an offer instead"
+    "defaultMessage": "Haz una oferta en cambio"
   },
   "make.offer": {
-    "defaultMessage": "Make Offer",
-    "description": "Make Offer"
+    "defaultMessage": "Ofertar",
+    "description": "Ofertar"
   },
   "my.wallet": {
-    "defaultMessage": "My Wallet"
+    "defaultMessage": "Mi billetera"
   },
   "name": {
-    "defaultMessage": "Name"
+    "defaultMessage": "Nombre"
   },
   "nft.already.imported": {
-    "defaultMessage": "NFT already imported"
+    "defaultMessage": "La NFT ya fue importada"
   },
   "nft.image": {
-    "defaultMessage": "NFT Image"
+    "defaultMessage": "Imagen de la NFT"
   },
   "nft.imported": {
-    "defaultMessage": "NFT imported"
+    "defaultMessage": "NFT importada"
   },
   "nft.removed.from.your.favorites": {
-    "defaultMessage": "NFT removed from your favorites"
+    "defaultMessage": "NFT removida de tus favoritos"
   },
   "nfts": {
     "defaultMessage": "NFTs"
   },
   "no.available.offers": {
-    "defaultMessage": "No Available offers",
-    "description": "No Available offers message"
+    "defaultMessage": "No hay ofertas disponibles",
+    "description": "Mensaje de inexistencia de ofertas"
   },
   "no.listings.yet": {
-    "defaultMessage": "No offers"
+    "defaultMessage": "Sin ofertas"
   },
   "no.nfts.found": {
-    "defaultMessage": "Import or favorite NFTs"
+    "defaultMessage": "Importar o añadir NFTs a los favoritos"
   },
   "no.orders.found": {
-    "defaultMessage": "No Orders Found"
+    "defaultMessage": "No se encuentran órdenes"
   },
   "nothing.to.see.here": {
-    "defaultMessage": "Nothing to see here"
+    "defaultMessage": "Nada que ver aquí"
   },
   "offer": {
-    "defaultMessage": "Offer"
+    "defaultMessage": "Oferta"
   },
   "offers": {
-    "defaultMessage": "Offers"
+    "defaultMessage": "Ofertas"
   },
   "open": {
-    "defaultMessage": "Open"
+    "defaultMessage": "Abierta"
   },
   "order": {
-    "defaultMessage": "Order"
+    "defaultMessage": "Orden"
   },
   "order.created": {
-    "defaultMessage": "Order #{id} Created"
+    "defaultMessage": "Orden #{id} creada"
   },
   "owned.by": {
-    "defaultMessage": "Owned by"
+    "defaultMessage": "Poseída por"
   },
   "please.connect.your.wallet": {
-    "defaultMessage": "Please, connect your wallet to see orders"
+    "defaultMessage": "Por favor, conecta tu billetera para ver las órdenes"
   },
   "please.wait.for.the.block.confirmation": {
-    "defaultMessage": "Wait for the block confirmation",
-    "description": "Transaction dialog message after transaction confirmation in the wallet"
+    "defaultMessage": "Espera por la confirmación de bloque",
+    "description": "Mensaje de diálogo de transacción después de la confirmación de la transacción en la billetera"
   },
   "post.offers": {
-    "defaultMessage": "Post offers",
-    "description": "Post offers"
+    "defaultMessage": "Publicar ofertas",
+    "description": "Publicar ofertas"
   },
   "price": {
-    "defaultMessage": "Price",
-    "description": "Price"
+    "defaultMessage": "Precio",
+    "description": "Precio"
   },
   "price.fiat": {
-    "defaultMessage": "Price {currency}"
+    "defaultMessage": "Precio {moneda}"
   },
   "provider.not.found": {
-    "defaultMessage": "Provider not found"
+    "defaultMessage": "No se encuentra al proveedor"
   },
   "remove.nft": {
-    "defaultMessage": "Remove NFT",
-    "description": "Remove nft dialog title"
+    "defaultMessage": "Eliminar NFT",
+    "description": "título del cuadro de diálogo para eliminar NFTs"
   },
   "search.for.a.nft": {
-    "defaultMessage": "Search for a NFT"
+    "defaultMessage": "Buscar una NFT"
   },
   "select.currency": {
-    "defaultMessage": "Select currency",
-    "description": "Select currency"
+    "defaultMessage": "Selecciona moneda",
+    "description": "Seleccionar moneda"
   },
   "select.language": {
-    "defaultMessage": "Select language",
-    "description": "Select language"
+    "defaultMessage": "Selecciona idioma",
+    "description": "Seleccionar idioma"
   },
   "sell": {
-    "defaultMessage": "Sell",
-    "description": "Sell button"
+    "defaultMessage": "Vender",
+    "description": "Botón de vender"
   },
   "sell.asset": {
-    "defaultMessage": "Sell asset",
-    "description": "Sell asset dialog title"
+    "defaultMessage": "Vender activo",
+    "description": "Título de diálogo para vender activo"
   },
   "settings": {
-    "defaultMessage": "Settings"
+    "defaultMessage": "Ajustes"
   },
   "share": {
-    "defaultMessage": "Share",
-    "description": "Menu share option in offers table"
+    "defaultMessage": "Compartir",
+    "description": "Opción de compartir en menú de tabla de ofertas"
   },
   "share.your.address": {
-    "defaultMessage": "Share your address"
+    "defaultMessage": "Compartir tu dirección"
   },
   "sign.message": {
-    "defaultMessage": "Sign Message",
-    "description": "Sign message dialog title"
+    "defaultMessage": "Firmar mensaje",
+    "description": "Título de diálogo para firmar mensaje"
   },
   "something.went.wrong": {
-    "defaultMessage": "Oops, something went wrong",
-    "description": "Something went wrong error message"
+    "defaultMessage": "Oops, algo salió mal",
+    "description": "Mensaje de error"
   },
   "start.posting.offers.collection": {
-    "defaultMessage": "Start posting offers for this collection",
-    "description": "Start posting offers for this collection"
+    "defaultMessage": "Empieza haciendo ofertas por esta colección",
+    "description": "Empieza haciendo ofertas por esta colección"
   },
   "status": {
-    "defaultMessage": "Status"
+    "defaultMessage": "Estado"
   },
   "switch": {
-    "defaultMessage": "Switch",
-    "description": "switch"
+    "defaultMessage": "Cambiar",
+    "description": "Cambiar"
   },
   "switch.network": {
-    "defaultMessage": "Switch network",
-    "description": "Switch network dialog title"
+    "defaultMessage": "Cambiar red",
+    "description": "Título de diálogo para cambiar red"
   },
   "switch.network.content.text": {
-    "defaultMessage": "Please, switch to {chainName} network to create listings or offers for this asset",
-    "description": "Switch network dialog content text"
+    "defaultMessage": "Por favor, cambia a la red {chainName} para crear listados y ofertas por este activo",
+    "description": "Texto de diálogo en opción de cambio de red"
   },
   "symbol": {
-    "defaultMessage": "Symbol"
+    "defaultMessage": "Símbolo"
   },
   "the.buyer.will.pay.percentage.in.fees": {
-    "defaultMessage": "The buyer will pay {price} {symbol} +{percentage} in fees"
+    "defaultMessage": "El comprador pagará {price} {symbol} +{percentage} en comisiones"
   },
   "the.nft.has.no.metadata": {
-    "defaultMessage": "The NFT has no metadata"
+    "defaultMessage": "La NFT no tiene metadatos"
   },
   "token": {
     "defaultMessage": "Token"
   },
   "token.added": {
-    "defaultMessage": "Token added"
+    "defaultMessage": "Token añadida"
   },
   "token.already.imported": {
-    "defaultMessage": "Token already imported"
+    "defaultMessage": "¡Token ya importada!"
   },
   "token.id": {
-    "defaultMessage": "Token ID"
+    "defaultMessage": "ID de la token"
   },
   "total": {
     "defaultMessage": "Total"
   },
   "transaction": {
-    "defaultMessage": "Transaction"
+    "defaultMessage": "Transacción"
   },
   "transaction.confirm.transaction": {
-    "defaultMessage": "Confirm transaction"
+    "defaultMessage": "Confirmar transacción"
   },
   "transaction.confirmed": {
-    "defaultMessage": "Transaction confirmed"
+    "defaultMessage": "Transacción confirmada"
   },
   "transaction.failed": {
-    "defaultMessage": "Transaction failed"
+    "defaultMessage": "Transacción fallida"
   },
   "transaction.waiting.confirmation": {
-    "defaultMessage": "Waiting confirmation"
+    "defaultMessage": "Esperando confirmación"
   },
   "transactions": {
-    "defaultMessage": "Transactions",
-    "description": "Transactions dialog title"
+    "defaultMessage": "Transacciones",
+    "description": "Título de diálogo para transacciones"
   },
   "try.again": {
-    "defaultMessage": "Try again",
-    "description": "Try again"
+    "defaultMessage": "Intenta de nuevo",
+    "description": "Intenta de nuevo"
   },
   "type": {
-    "defaultMessage": "Type"
+    "defaultMessage": "Tipo"
   },
   "unknown.collection": {
-    "defaultMessage": "Unknown collection"
+    "defaultMessage": "Colección desconocida"
   },
   "unknown.name": {
-    "defaultMessage": "Unknown name"
+    "defaultMessage": "Nombre desconocido"
   },
   "unknown.token": {
-    "defaultMessage": "Unknown token"
+    "defaultMessage": "Token desconocida"
   },
   "view": {
-    "defaultMessage": "view"
+    "defaultMessage": "ver"
   },
   "view.order": {
-    "defaultMessage": "View Order",
-    "description": "View Order"
+    "defaultMessage": "Ver orden",
+    "description": "Ver orden"
   },
   "view.transaction": {
-    "defaultMessage": "View Transaction",
-    "description": "View transaction"
+    "defaultMessage": "Ver transacción",
+    "description": "Ver transacción"
   },
   "visible.for": {
-    "defaultMessage": "Visible for"
+    "defaultMessage": "Visible para"
   },
   "wallet": {
-    "defaultMessage": "Wallet"
+    "defaultMessage": "Billetera"
   },
   "wallet.is.not.connected": {
-    "defaultMessage": "Wallet is not connected"
+    "defaultMessage": "La billetera no está conectada"
   },
   "you": {
-    "defaultMessage": "you",
-    "description": "You"
+    "defaultMessage": "tú",
+    "description": "Tú"
   },
   "you.are.paying.percentage.in.fees": {
-    "defaultMessage": "You are paying {price} {symbol} + {percentage} in fees"
+    "defaultMessage": "Estás pagando {price} {symbol} + {percentage} en comisiones"
   },
   "your.order.was.created.successfully": {
-    "defaultMessage": "Your order was created successfully"
+    "defaultMessage": "Tu orden fue creada satisfactoriamente"
   },
   "your.transaction.has.been.confirmed": {
-    "defaultMessage": "Your transaction has been confirmed",
-    "description": "Your transaction has been confirmed"
+    "defaultMessage": "Tu transacción ha sido confirmada",
+    "description": "Tu transacción ha sido confirmada"
   }
 }
