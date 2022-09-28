@@ -1,4 +1,4 @@
-# NFT Marketplace
+# NFT Marketplace ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FDexKit%2Fopen-nft-marketplace)
 
 [![NFT marketplace](https://img.youtube.com/vi/9UxtgAkNG1k/0.jpg)](https://www.youtube.com/watch?v=9UxtgAkNG1k 'Marketplace by DexKit')
 
