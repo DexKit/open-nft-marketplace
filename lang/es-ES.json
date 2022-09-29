@@ -1,15 +1,391 @@
 {
-  "Confirm": {
-    "defaultMessage": "Confirmar",
-    "description": "Confirmar"
+  "actions": {
+    "defaultMessage": "Acciones"
+  },
+  "add": {
+    "defaultMessage": "Añadir"
+  },
+  "add.collection": {
+    "defaultMessage": "Añadir colección"
+  },
+  "add.collection.to.your.marketplace": {
+    "defaultMessage": "Añadir colección a tu mercado"
+  },
+  "add.custom.section": {
+    "defaultMessage": "Añadir sección personalizada"
+  },
+  "add.domain.marketplace": {
+    "defaultMessage": "Quiero añadir el dominio {domain} a este mercado"
+  },
+  "add.fee": {
+    "defaultMessage": "Editar comisión"
+  },
+  "add.fees.to.your.marketplace": {
+    "defaultMessage": "Añadir comisiones a tu mercado"
+  },
+  "add.item": {
+    "defaultMessage": "Añadir ítem"
+  },
+  "add.section": {
+    "defaultMessage": "Añadir sección"
+  },
+  "asset": {
+    "defaultMessage": "Activo"
+  },
+  "auto.slippage": {
+    "defaultMessage": "Deslizamiento auto"
+  },
+  "back": {
+    "defaultMessage": "Atrás"
+  },
+  "background.image": {
+    "defaultMessage": "Imagen de fondo"
+  },
+  "background.url": {
+    "defaultMessage": "URL para imagen del fondo"
+  },
+  "browser.not.support.video.tage": {
+    "defaultMessage": "Tu navegador no soporta la etiqueta de video."
+  },
+  "button.title": {
+    "defaultMessage": "Título del botón"
+  },
+  "button.url": {
+    "defaultMessage": "URL del botón"
+  },
+  "call.to.action": {
+    "defaultMessage": "Llamada a la acción"
+  },
+  "cancel.selection": {
+    "defaultMessage": "Cancelar selección"
+  },
+  "chainId": {
+    "defaultMessage": "ID de cadena"
+  },
+  "check.deploy.status": {
+    "defaultMessage": "Chequear estado"
+  },
+  "checked.successfully": {
+    "defaultMessage": "Chequeado satisfactoriamente"
+  },
+  "checking.domain": {
+    "defaultMessage": "Chequeando dominio"
+  },
+  "cname": {
+    "defaultMessage": "CNAME"
+  },
+  "collection.preview": {
+    "defaultMessage": "Previsualización de colección"
+  },
+  "configure.domain": {
+    "defaultMessage": "Configurar dominio"
+  },
+  "continue": {
+    "defaultMessage": "Continuar"
+  },
+  "custom.page.editor": {
+    "defaultMessage": "Editor de páginas personalizadas"
+  },
+  "customize.colors": {
+    "defaultMessage": "Personalizar colores"
+  },
+  "dark": {
+    "defaultMessage": "Oscuro"
+  },
+  "dark.mode": {
+    "defaultMessage": "Modo oscuro"
+  },
+  "default": {
+    "defaultMessage": "Por defecto"
+  },
+  "delete.marketplace": {
+    "defaultMessage": "Quiero borrar este mercado con el dominio {domain}"
+  },
+  "deploy": {
+    "defaultMessage": "Desplegar"
+  },
+  "deploying.domain": {
+    "defaultMessage": "Desplegando dominio"
+  },
+  "details": {
+    "defaultMessage": "Detalles"
+  },
+  "do.you.really.want.to.deploy.this.domain": {
+    "defaultMessage": "¿Estás seguro de que quieres desplegar este dominio {domain}?"
+  },
+  "do.you.really.want.to.remove.this.marketplace": {
+    "defaultMessage": "¿Estás seguro de que quieres borrar este mercado?"
+  },
+  "do.you.want.to.remove.all.number.tokens": {
+    "defaultMessage": "¿Quieres remover todas las {count} tokens?"
+  },
+  "do.you.want.to.remove.this.collection": {
+    "defaultMessage": "¿Quieres remover esta colección?"
+  },
+  "do.you.want.to.remove.this.section": {
+    "defaultMessage": "¿Quieres remover esta sección?"
+  },
+  "do.you.want.to.remove.this.token": {
+    "defaultMessage": "¿Quieres remover esta token?"
+  },
+  "domain": {
+    "defaultMessage": "Dominio"
+  },
+  "domain.error.propagated": {
+    "defaultMessage": "El dominio todavía no ha sido propagado"
+  },
+  "edit": {
+    "defaultMessage": "Editar"
+  },
+  "edit.marketplace": {
+    "defaultMessage": "Quiero crear/editar un mercado"
+  },
+  "edit.section": {
+    "defaultMessage": "Editar sección"
+  },
+  "email": {
+    "defaultMessage": "E-mail"
+  },
+  "favicon.url": {
+    "defaultMessage": "URL del favicon"
+  },
+  "featured": {
+    "defaultMessage": "Recomendado"
+  },
+  "fee.percentage": {
+    "defaultMessage": "Porcentaje de comisión"
+  },
+  "fetching.best.price": {
+    "defaultMessage": "Encontrando el mejor precio..."
+  },
+  "home.page.preview": {
+    "defaultMessage": "Previsualización de inicio"
+  },
+  "image.url": {
+    "defaultMessage": "URL de imagen"
+  },
+  "import.or.favorite.nfts": {
+    "defaultMessage": "Importar o dar favorito a NFTs"
+  },
+  "import.token.lists": {
+    "defaultMessage": "Importar listas de tokens"
+  },
+  "info.wizard.content.cname": {
+    "defaultMessage": "Despliega tu dominio y asegúrate que no tenga otros registros utilizados. Después de añadido satisfactoriamente, nuestro sistema te otorgará un nombre para ser añadido a tu proveedor DNS. Después de añadido el CNAME, presiona el botón de chequear estado. Si éste es VERIFICADO, espera a que tu dominio se propague y ya tu mercado estará listo. Para cualquier problema contacta nuestros canales de soporte."
+  },
+  "info.wizard.title.cname": {
+    "defaultMessage": "Información de configuración de CNAME"
+  },
+  "item.type": {
+    "defaultMessage": "Tipo de ítem"
+  },
+  "light": {
+    "defaultMessage": "Claro"
+  },
+  "lists": {
+    "defaultMessage": "Listas"
+  },
+  "logo.url": {
+    "defaultMessage": "URL del logo"
+  },
+  "logout.wallet": {
+    "defaultMessage": "Cierra sesión de billetera"
+  },
+  "make.token.available.on.the.marketplace": {
+    "defaultMessage": "Convierte a la token como comerciable en tu mercado"
+  },
+  "marketplace.domain.added": {
+    "defaultMessage": "Dominio de mercado añadido"
+  },
+  "marketplace.fee": {
+    "defaultMessage": "Comisión de mercado"
+  },
+  "marketplace.removed": {
+    "defaultMessage": "Mercado eliminado"
+  },
+  "marketplace.theme": {
+    "defaultMessage": "Tema de mercado"
+  },
+  "max": {
+    "defaultMessage": "Máx"
+  },
+  "no.offers.yet": {
+    "defaultMessage": "Sin ofertas todavía"
+  },
+  "no.tokens": {
+    "defaultMessage": "Sin tokens"
+  },
+  "not.deployed": {
+    "defaultMessage": "No desplegado"
+  },
+  "not.verified": {
+    "defaultMessage": "No verificado"
+  },
+  "oops.something.went.wrong": {
+    "defaultMessage": "Oops, algo salió mal"
+  },
+  "or": {
+    "defaultMessage": "o"
+  },
+  "please.sign.the.settings.with.your.wallet": {
+    "defaultMessage": "Por favor, firma la configuración en tu billetera"
+  },
+  "please.try.again.later": {
+    "defaultMessage": "Por favor, intenta luego"
+  },
+  "preview": {
+    "defaultMessage": "Previsualizar"
+  },
+  "recipient": {
+    "defaultMessage": "Recipiente"
+  },
+  "recipient.address.already.in.use": {
+    "defaultMessage": "La dirección de recipiente ya está en uso"
+  },
+  "remove": {
+    "defaultMessage": "Remover"
+  },
+  "remove.section": {
+    "defaultMessage": "Remover sección"
+  },
+  "save": {
+    "defaultMessage": "Guardar"
+  },
+  "save.section": {
+    "defaultMessage": "Guardar sección"
+  },
+  "search.for.token": {
+    "defaultMessage": "Buscar tokens..."
+  },
+  "section.editor": {
+    "defaultMessage": "Editor de sección"
+  },
+  "section.type": {
+    "defaultMessage": "Tipo de sección"
+  },
+  "see.all": {
+    "defaultMessage": "Ver todo"
+  },
+  "select": {
+    "defaultMessage": "Seleccionar"
+  },
+  "select.a.token": {
+    "defaultMessage": "Selecciona una token",
+    "description": "Se requiere que elijas una token"
+  },
+  "select.all": {
+    "defaultMessage": "Seleccionar todo"
+  },
+  "select.items": {
+    "defaultMessage": "Seleccionar ítems"
+  },
+  "sending.config": {
+    "defaultMessage": "Enviando config..."
+  },
+  "sending.marketplace.settings": {
+    "defaultMessage": "Enviando configuración de mercado"
+  },
+  "sent.successfully": {
+    "defaultMessage": "Enviado con éxito"
+  },
+  "share.image.url": {
+    "defaultMessage": "URL de imagen compartida"
+  },
+  "simple": {
+    "defaultMessage": "Simple"
+  },
+  "slippage.is.above.one.hundred.percent": {
+    "defaultMessage": "Deslizamiento sobrepasa 100%"
+  },
+  "slippage.is.below.zero": {
+    "defaultMessage": "Deslizamiento debajo 0%"
+  },
+  "subtitle": {
+    "defaultMessage": "Subtítulo"
+  },
+  "swap": {
+    "defaultMessage": "Intercambiar"
+  },
+  "swap.notification": {
+    "defaultMessage": "Intercambiar {sellAmount} {sellSymbol} por {buyAmount} {buySymbol}",
+    "description": "Según el mejor precio disponible del mercado"
+  },
+  "swap.settings": {
+    "defaultMessage": "Ajustes de intercambio"
+  },
+  "text.field": {
+    "defaultMessage": "Campo de texto"
+  },
+  "this.token.is.available.on.the.marketplace": {
+    "defaultMessage": "Esta token está disponible en el mercado"
+  },
+  "title": {
+    "defaultMessage": "Título"
+  },
+  "tradable": {
+    "defaultMessage": "Comerciable"
+  },
+  "transaction.cost": {
+    "defaultMessage": "Costo de transacción"
+  },
+  "url": {
+    "defaultMessage": "Dominio"
+  },
+  "variant": {
+    "defaultMessage": "Variante"
+  },
+  "verified": {
+    "defaultMessage": "Verificado"
+  },
+  "verifying.domain": {
+    "defaultMessage": "Verificando dominio"
+  },
+  "video": {
+    "defaultMessage": "Video"
+  },
+  "video.type": {
+    "defaultMessage": "Tipo de video"
+  },
+  "video.url": {
+    "defaultMessage": "URL de video"
+  },
+  "view.marketplaces": {
+    "defaultMessage": "Ver mercados"
+  },
+  "you.need.to.add.or.import.tokens.so.users.can.make.trades": {
+    "defaultMessage": "Debes añadir o importar tokens para que los usuarios puedan comerciar"
+  },
+  "you.pay": {
+    "defaultMessage": "Pagas"
+  },
+  "you.receive": {
+    "defaultMessage": "Recibes"
+  },
+  "you.selected.more.than.amoount": {
+    "defaultMessage": "Seleccionaste {amount} tokens. El límite es {tokenLimit}"
+  },
+  "your.fees.are.above.the.limit": {
+    "defaultMessage": "Tus comisiones ({total}%) están por encima del límite ({maxFee}%)"
+  },
+  "your.marketplace.domain.was.added.to.our.system": {
+    "defaultMessage": "El dominio de tu mercado ha sido añadido a nuestro sistema. Por favor añade el registro CNAME a tu proveedor DNS y después chequea el estado del dominio hasta que sea propagado"
+  },
+  "your.marketplace.domain.was.verified.to.our.system": {
+    "defaultMessage": "El dominio de tu mercado ha sido verificado en nuestro sistema. Espera a que el dominio se propague y luego visítalo"
+  },
+  "your.marketplace.settings.was.sent.successfully": {
+    "defaultMessage": "Tu configuración fue enviada satisfactoriamente"
+  },
+  "youtube": {
+    "defaultMessage": "Vimeo"
   },
   "ID": {
     "defaultMessage": "ID"
   },
-  "Listing": {
+  "listing": {
     "defaultMessage": "Listado"
   },
-  "Network": {
+  "network": {
     "defaultMessage": "Red",
     "description": "Título de Red"
   },
@@ -64,11 +440,11 @@
   },
   "buy": {
     "defaultMessage": "Comprar",
-    "description": "Texto para el botón Comprar activo"
+    "description": "Compra activo"
   },
   "buy.asset": {
     "defaultMessage": "Comprar activo",
-    "description": "Título para Comprar activo"
+    "description": "Efectúa la compra"
   },
   "buy.asset.transaction.title": {
     "defaultMessage": "Comprar {collectionName} #{id} por {amount} {symbol}"
@@ -78,22 +454,22 @@
   },
   "buyer.address": {
     "defaultMessage": "Dirección del comprador",
-    "description": "Etiqueta para la dirección del comprador"
+    "description": "Billetera del recipiente"
   },
   "cancel": {
     "defaultMessage": "Cancelar",
-    "description": "Cancelar"
+    "description": "Cancela esta acción"
   },
   "cancel.listing": {
     "defaultMessage": "Cancelar listado"
   },
   "cancel.order": {
     "defaultMessage": "Cancelar listado para el activo {collectionName} #{id}",
-    "description": "Título para la transacción de cancelar listado"
+    "description": "Cancela la acción de listar activo"
   },
   "clear.transactions": {
     "defaultMessage": "Borrar transacciones",
-    "description": "Etiqueta para el botón de borrar transacciones"
+    "description": "Elimina el registro de transacciones en la app, más nunca en la blockchain."
   },
   "collection": {
     "defaultMessage": "Colección"
@@ -103,14 +479,14 @@
   },
   "confirm": {
     "defaultMessage": "Confirmar",
-    "description": "Confirmar"
+    "description": "Confirmar esta acción"
   },
   "confirm.sign.message": {
     "defaultMessage": "Por favor, firma el mensaje en tu billetera"
   },
   "confirm.the.transaction.on.your.wallet": {
     "defaultMessage": "Por favor, confirma la transacción en tu billetera",
-    "description": "Mensaje de diálogo de transacción antes de que se confirme la transacción en la billetera"
+    "description": "Debes confirmar este mensaje para que se produzcan los cambios"
   },
   "connect.now": {
     "defaultMessage": "Conectar ahora"
@@ -120,11 +496,11 @@
   },
   "connect.your.wallet": {
     "defaultMessage": "Conecta tu billetera",
-    "description": "Mensaje para conectar billetera"
+    "description": "Debes conectar tu billetera ERC20 para manipular esta dApp"
   },
   "contact.us": {
     "defaultMessage": "Contáctanos",
-    "description": "Contáctanos"
+    "description": "Ponte en contacto con el equipo"
   },
   "contract.address": {
     "defaultMessage": "Dirección de contrato"
@@ -176,7 +552,7 @@
   },
   "expiration": {
     "defaultMessage": "Expiración",
-    "description": "Expiración"
+    "description": "Fecha de caducidad"
   },
   "expired": {
     "defaultMessage": "Expirado"
@@ -189,7 +565,7 @@
   },
   "explore": {
     "defaultMessage": "Explora",
-    "description": "Botón del explorador de la tarjeta de colección"
+    "description": "Buscar"
   },
   "exporation": {
     "defaultMessage": "Expiración"
@@ -203,7 +579,7 @@
   },
   "from": {
     "defaultMessage": "Desde",
-    "description": "Desde"
+    "description": "Quién envía"
   },
   "home": {
     "defaultMessage": "Inicio"
@@ -216,7 +592,7 @@
   },
   "import.token": {
     "defaultMessage": "Importar Token",
-    "description": "Título del cuadro de diálogo Importar token"
+    "description": "Importa token para su comercio utilizando la dirección de contrato respectiva"
   },
   "insufficient.funds": {
     "defaultMessage": "Fondos insuficientes"
@@ -245,7 +621,7 @@
   },
   "make.offer": {
     "defaultMessage": "Ofertar",
-    "description": "Ofertar"
+    "description": "Colocar oferta"
   },
   "my.wallet": {
     "defaultMessage": "Mi billetera"
@@ -270,7 +646,7 @@
   },
   "no.available.offers": {
     "defaultMessage": "No hay ofertas disponibles",
-    "description": "Mensaje de inexistencia de ofertas"
+    "description": "Sin ofertas actualmente"
   },
   "no.listings.yet": {
     "defaultMessage": "Sin ofertas"
@@ -307,11 +683,11 @@
   },
   "please.wait.for.the.block.confirmation": {
     "defaultMessage": "Espera por la confirmación de bloque",
-    "description": "Mensaje de diálogo de transacción después de la confirmación de la transacción en la billetera"
+    "description": "Este procedimiento es necesario para guardar los cambios. Sé paciente"
   },
   "post.offers": {
     "defaultMessage": "Publicar ofertas",
-    "description": "Publicar ofertas"
+    "description": "Publica tus ofertas"
   },
   "price": {
     "defaultMessage": "Precio",
@@ -325,18 +701,18 @@
   },
   "remove.nft": {
     "defaultMessage": "Eliminar NFT",
-    "description": "título del cuadro de diálogo para eliminar NFTs"
+    "description": "Borra la NFT"
   },
   "search.for.a.nft": {
     "defaultMessage": "Buscar una NFT"
   },
   "select.currency": {
     "defaultMessage": "Selecciona moneda",
-    "description": "Seleccionar moneda"
+    "description": "Elige la moneda"
   },
   "select.language": {
     "defaultMessage": "Selecciona idioma",
-    "description": "Seleccionar idioma"
+    "description": "Elige el idioma"
   },
   "sell": {
     "defaultMessage": "Vender",
@@ -344,21 +720,21 @@
   },
   "sell.asset": {
     "defaultMessage": "Vender activo",
-    "description": "Título de diálogo para vender activo"
+    "description": "Vende activo"
   },
   "settings": {
     "defaultMessage": "Ajustes"
   },
   "share": {
     "defaultMessage": "Compartir",
-    "description": "Opción de compartir en menú de tabla de ofertas"
+    "description": "Comparte"
   },
   "share.your.address": {
     "defaultMessage": "Compartir tu dirección"
   },
   "sign.message": {
     "defaultMessage": "Firmar mensaje",
-    "description": "Título de diálogo para firmar mensaje"
+    "description": "Debes firmar este mensaje para guardar los cambios"
   },
   "something.went.wrong": {
     "defaultMessage": "Oops, algo salió mal",
@@ -366,22 +742,22 @@
   },
   "start.posting.offers.collection": {
     "defaultMessage": "Empieza haciendo ofertas por esta colección",
-    "description": "Empieza haciendo ofertas por esta colección"
+    "description": "Haz tu primera puja"
   },
   "status": {
     "defaultMessage": "Estado"
   },
   "switch": {
     "defaultMessage": "Cambiar",
-    "description": "Cambiar"
+    "description": "Cambia"
   },
   "switch.network": {
     "defaultMessage": "Cambiar red",
-    "description": "Título de diálogo para cambiar red"
+    "description": "Cambia red operativa"
   },
   "switch.network.content.text": {
     "defaultMessage": "Por favor, cambia a la red {chainName} para crear listados y ofertas por este activo",
-    "description": "Texto de diálogo en opción de cambio de red"
+    "description": "Desbes estar conectado a la red en donde quieras hacer comercio"
   },
   "symbol": {
     "defaultMessage": "Símbolo"
@@ -424,7 +800,7 @@
   },
   "transactions": {
     "defaultMessage": "Transacciones",
-    "description": "Título de diálogo para transacciones"
+    "description": "Transacciones"
   },
   "try.again": {
     "defaultMessage": "Intenta de nuevo",
