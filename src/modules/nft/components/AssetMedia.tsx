@@ -32,7 +32,6 @@ export function AssetMedia({ asset }: Props) {
           sx={{
             position: 'relative',
             width: '100%',
-            height: (theme) => theme.spacing(36),
           }}
         >
           {nftSrcAndType.type === 'image' && metadata?.image && (
