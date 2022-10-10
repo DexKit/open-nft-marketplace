@@ -7,7 +7,7 @@ import {
 import { ERC20Abi } from '../constants/abis';
 import { ChainId } from '../constants/enum';
 import { Token, TokenBalance } from '../types/blockchain';
-import { getNativeTokenSymbol } from '../utils/blockchain';
+import { getNativeCurrencySymbol } from '../utils/blockchain';
 import {
   getMulticallTokenBalances,
   getMulticallTokenBalancesAndAllowances
@@ -39,7 +39,7 @@ export const getERC20Symbol = async (
   }
 
   if (contractAddress === ZEROEX_NATIVE_TOKEN_ADDRESS) {
-    return getNativeTokenSymbol((await provider.getNetwork()).chainId);
+    return getNativeCurrencySymbol((await provider.getNetwork()).chainId);
   }
 
   const contract = new ethers.Contract(contractAddress, ERC20Abi, provider);
@@ -112,6 +112,7 @@ export const getERC20Balances = async (
 
       if (addr === ZEROEX_NATIVE_TOKEN_ADDRESS) {
         addr = MULTICALL_NATIVE_TOKEN_ADDRESS;
+        // it's the native currency
       }
 
       return {
