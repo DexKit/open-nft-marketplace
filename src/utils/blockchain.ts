@@ -75,9 +75,9 @@ export function getBlockExplorerUrl(chainId?: number) {
   }
 }
 
-export function getNativeTokenSymbol(chainId?: number) {
+export function getNativeCurrencySymbol(chainId?: number) {
   if (chainId) {
-    return NETWORKS[chainId]?.symbol;
+    return NETWORKS[chainId]?.nativeCurrency?.symbol || NETWORKS[chainId]?.symbol;
   }
 }
 
@@ -87,9 +87,21 @@ export function getChainName(chainId?: number) {
   }
 }
 
+export function getNativeCurrencyName(chainId?: number) {
+  if (chainId) {
+    return NETWORKS[chainId]?.nativeCurrency?.name || NETWORKS[chainId]?.name;
+  }
+}
+
 export function getChainLogoImage(chainId?: number) {
   if (chainId) {
     return NETWORKS[chainId]?.imageUrl;
+  }
+}
+
+export function getNativeCurrencyImage(chainId?: number) {
+  if (chainId) {
+    return NETWORKS[chainId]?.nativeCurrencyUrl || NETWORKS[chainId]?.imageUrl;
   }
 }
 

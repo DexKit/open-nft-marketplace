@@ -102,7 +102,8 @@ export const NETWORKS: { [key: number]: Network } = {
   },
   [ChainId.Optimism]: {
     chainId: ChainId.Optimism,
-    symbol: 'ETH',
+    symbol: 'OP',
+    nativeCurrencyUrl: ethIcon.src,
     explorerUrl: 'https://optimistic.etherscan.io',
     name: 'Optimism',
     slug: 'optimism',
@@ -110,16 +111,27 @@ export const NETWORKS: { [key: number]: Network } = {
     wrappedAddress: '0x4200000000000000000000000000000000000006',
     imageUrl: optimismIcon.src,
     providerRpcUrl: 'https://mainnet.optimism.io',
+    nativeCurrency: {
+      name: 'Ethereum',
+      decimals: 18,
+      symbol: 'ETH'
+    }
   },
   [ChainId.Arbitrum]: {
     chainId: ChainId.Arbitrum,
-    symbol: 'ETH',
+    symbol: 'ARB',
     explorerUrl: 'https://arbiscan.io/',
     name: 'Arbitrum',
     slug: 'arbitrum',
     coingeckoId: 'ethereum',
     wrappedAddress: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
+    nativeCurrencyUrl: ethIcon.src,
     imageUrl: arbitrumIcon.src,
     providerRpcUrl: 'https://arb1.arbitrum.io/rpc',
+    nativeCurrency: {
+      name: 'Ethereum',
+      decimals: 18,
+      symbol: 'ETH',
+    }
   },
 };
