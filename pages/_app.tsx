@@ -4,7 +4,12 @@ import { responsiveFontSizes, ThemeProvider } from '@mui/material/styles';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import * as React from 'react';
-import { Hydrate, QueryClient, QueryClientProvider } from 'react-query';
+import {
+  DehydratedState,
+  Hydrate,
+  QueryClient,
+  QueryClientProvider,
+} from 'react-query';
 import createEmotionCache from '../src/createEmotionCache';
 import { getTheme } from '../src/theme';
 
@@ -32,7 +37,7 @@ import SEO from '../next-seo.config';
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
 
-interface MyAppProps extends AppProps {
+interface MyAppProps extends AppProps<{ dehydratedState: DehydratedState }> {
   emotionCache?: EmotionCache;
 }
 
