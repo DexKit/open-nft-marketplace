@@ -21,6 +21,8 @@ import Link from '../../../components/Link';
 import { useAsset, useAssetMetadata } from '../../../hooks/nft';
 import AssetAttributePaper from './AssetAttributePaper';
 import { truncateErc1155TokenId } from '../../../utils/nfts';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 interface Props {
   description?: string;
@@ -52,7 +54,11 @@ export function AssetDetails({ description, address, id }: Props) {
 
           <Divider />
           <AccordionDetails sx={{ p: (theme) => theme.spacing(2) }}>
-            <Typography color="textSecondary">{description}</Typography>
+            {description && (
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                {description}
+              </ReactMarkdown>
+            )}
           </AccordionDetails>
         </Accordion>
       </Box>
