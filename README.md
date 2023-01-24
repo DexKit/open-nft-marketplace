@@ -14,11 +14,16 @@ clone this repo
 git clone https://github.com/DexKit/open-nft-marketplace.git
 ```
 
-Install it and run:
+Install it:
 
 ```sh
-npm install
-npm run dev
+yarn
+```
+
+Create an .env file with INFURA_API_KEY set with your Infura API key and then run the app
+
+```sh
+yarn dev
 ```
 
 # Contributing
