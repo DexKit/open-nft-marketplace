@@ -1,6 +1,6 @@
 {
   "Analytics": {
-    "defaultMessage": "Analytics"
+    "defaultMessage": "Analytika"
   },
   "ID": {
     "defaultMessage": "ID"
@@ -9,123 +9,123 @@
     "defaultMessage": "Listing"
   },
   "Network": {
-    "defaultMessage": "Network",
+    "defaultMessage": "Síť",
     "description": "Network caption"
   },
   "SEO": {
     "defaultMessage": "SEO"
   },
   "Your token was created successfully": {
-    "defaultMessage": "Your token was created successfully"
+    "defaultMessage": "Token byl úspěšně vytvořen"
   },
   "a.record": {
-    "defaultMessage": "A Record"
+    "defaultMessage": "A Záznam"
   },
   "accept": {
-    "defaultMessage": "Accept",
+    "defaultMessage": "Přijmout",
     "description": "Accept"
   },
   "accept.offer.transaction.title": {
-    "defaultMessage": "Accept offer of {amount} {symbol} for the asset {collectionName} #{id}"
+    "defaultMessage": "Přijmout nabídku {amount} {symbol} za {collectionName} #{id}"
   },
   "accordion.details": {
-    "defaultMessage": "Details",
+    "defaultMessage": "Detaily",
     "description": "Details in the nft accordion"
   },
   "actions": {
-    "defaultMessage": "Actions"
+    "defaultMessage": "Akce"
   },
   "add": {
-    "defaultMessage": "Add"
+    "defaultMessage": "Přidat"
   },
   "add.attribute": {
-    "defaultMessage": "Add attribute"
+    "defaultMessage": "Přidat atribut"
   },
   "add.collection": {
-    "defaultMessage": "Add collection"
+    "defaultMessage": "Přidat kolekci"
   },
   "add.collection.to.your.marketplace": {
-    "defaultMessage": "Add collection to your marketplace"
+    "defaultMessage": "Přidat kolekci na tržiště"
   },
   "add.custom.section": {
-    "defaultMessage": "Add custom section"
+    "defaultMessage": "Přidat vlastní sekci"
   },
   "add.fee": {
-    "defaultMessage": "Edit fee"
+    "defaultMessage": "Upravit poplatek"
   },
   "add.fees.to.your.marketplace": {
-    "defaultMessage": "Add fees to your marketplace"
+    "defaultMessage": "Přidejte poplatky do svého tržiště"
   },
   "add.image": {
-    "defaultMessage": "Add image"
+    "defaultMessage": "Přidat obrázek"
   },
   "add.item": {
-    "defaultMessage": "Add item"
+    "defaultMessage": "Přidat předmět"
   },
   "add.menu": {
-    "defaultMessage": "Add menu"
+    "defaultMessage": "Přidat menu"
   },
   "add.nft": {
-    "defaultMessage": "Add nft"
+    "defaultMessage": "Přidat NFT"
   },
   "add.section": {
-    "defaultMessage": "Add section"
+    "defaultMessage": "Přidat sekci"
   },
   "admin": {
     "defaultMessage": "Admin"
   },
   "advanced": {
-    "defaultMessage": "Advanced",
+    "defaultMessage": "Pokročilé",
     "description": "Make listing advanced accordion"
   },
   "advanced.info": {
-    "defaultMessage": "Only the address entered below can buy this listing. If empty, any account can buy this listing."
+    "defaultMessage": "Pouze adresy peněženek vložené níže můžou koupit tuhle nabídku. Nechejte prázdné, pokud chcete nabídku dostupnou pro všechny peněženky."
   },
   "analytics": {
-    "defaultMessage": "Analytics"
+    "defaultMessage": "Analytika"
   },
   "and.made.with.love.by": {
     "defaultMessage": "and made with ❤️ by",
     "description": "and made with ❤️ by"
   },
   "approve.asset.description": {
-    "defaultMessage": "to App"
+    "defaultMessage": "Do aplikace"
   },
   "approve.asset.title": {
-    "defaultMessage": "Approve Asset"
+    "defaultMessage": "Povolit asset"
   },
   "approve.for.all": {
-    "defaultMessage": "Approve collection {collectionName} to trade",
+    "defaultMessage": "Povolit kolekci {collectionName} k obchodování",
     "description": "Approve collection for listing"
   },
   "approve.token": {
-    "defaultMessage": "Approve {name} ({symbol}) to trade",
+    "defaultMessage": "Povolit {name} ({symbol}) k obchodování",
     "description": "Approve collection for listing"
   },
   "asset": {
     "defaultMessage": "Asset"
   },
   "asset.will.be.added.to.favorites": {
-    "defaultMessage": "This asset will be added to your favorites"
+    "defaultMessage": "Tento asset bude přidán mezi Vaše oblíbené"
   },
   "attributes": {
-    "defaultMessage": "Attributes",
+    "defaultMessage": "Atributy",
     "description": "Attributes accordion"
   },
   "auto.slippage": {
     "defaultMessage": "Auto Slippage"
   },
   "available.balance": {
-    "defaultMessage": "Available Balance"
+    "defaultMessage": "Dostupný zůstatek"
   },
   "back": {
-    "defaultMessage": "Back"
+    "defaultMessage": "Zpět"
   },
   "background.image": {
-    "defaultMessage": "Background image"
+    "defaultMessage": "Obrázek na pozadí"
   },
   "balance": {
-    "defaultMessage": "Balance"
+    "defaultMessage": "Zůstatek"
   },
   "boost.number": {
     "defaultMessage": "Boost Number"
@@ -134,1254 +134,1254 @@
     "defaultMessage": "Boost Percentage"
   },
   "browser.not.support.video.tage": {
-    "defaultMessage": "Your browser does not support the video tag."
+    "defaultMessage": "Váš prohlížeč nepodporuje video tag"
   },
   "button.title": {
-    "defaultMessage": "Button Title"
+    "defaultMessage": "Název tlačítka"
   },
   "button.url": {
-    "defaultMessage": "Button URL"
+    "defaultMessage": "URL tlačítka"
   },
   "buy": {
-    "defaultMessage": "Buy",
+    "defaultMessage": "Koupit",
     "description": "Buy asset button text"
   },
   "buy.asset": {
-    "defaultMessage": "Buy Asset",
+    "defaultMessage": "Koupit asset",
     "description": "Buy asset title"
   },
   "buy.asset.transaction.title": {
-    "defaultMessage": "Buy {collectionName} #{id} for {amount} {symbol}"
+    "defaultMessage": "Koupit {collectionName} #{id} za {amount} {symbol}"
   },
   "buy.now": {
-    "defaultMessage": "Buy now"
+    "defaultMessage": "Koupit teď"
   },
   "buy.on.platform": {
-    "defaultMessage": "Buy on {platform}",
+    "defaultMessage": "Koupit na {platform}",
     "description": "Buy asset button text"
   },
   "buyer.address": {
-    "defaultMessage": "Buyer address",
+    "defaultMessage": "Adresa kupujícího",
     "description": "Buyer address input label"
   },
   "call.to.action": {
-    "defaultMessage": "Call to Action"
+    "defaultMessage": "Výzva k akci"
   },
   "cancel": {
-    "defaultMessage": "Cancel"
+    "defaultMessage": "Zrušit"
   },
   "cancel.listing": {
-    "defaultMessage": "Cancel listing"
+    "defaultMessage": "Zrušit nabídku"
   },
   "cancel.order": {
-    "defaultMessage": "Cancel listing for the asset {collectionName} #{id}",
+    "defaultMessage": "Zrušit nabídku pro {collectionName} #{id}",
     "description": "Title for the listing cancel transaction"
   },
   "cancel.selection": {
-    "defaultMessage": "Cancel Selection"
+    "defaultMessage": "Zrušit výběr"
   },
   "careful.with.scripts": {
-    "defaultMessage": "Be careful with scripts and html that you use here"
+    "defaultMessage": "Buďte opatrní se skripty a html, které zde použijete"
   },
   "chainId": {
-    "defaultMessage": "Chain ID"
+    "defaultMessage": "ID Blockchainu"
   },
   "check.deploy.status": {
-    "defaultMessage": "Check deploy Status"
+    "defaultMessage": "Zkontrolujte stav nasazení"
   },
   "checked.successfully": {
-    "defaultMessage": "Checked successfully"
+    "defaultMessage": "Úspěšně zkontrolováno"
   },
   "checking.domain": {
-    "defaultMessage": "Checking domain"
+    "defaultMessage": "Kontroluji doménu"
   },
   "choose.collections.to.show": {
-    "defaultMessage": "Choose collections to show in your marketplace"
+    "defaultMessage": "Vyberte kolekce, které chcete zobrazit na svém tržišti"
   },
   "choose.your.theme": {
-    "defaultMessage": "Choose your theme"
+    "defaultMessage": "Zvolte motiv"
   },
   "clear.all": {
-    "defaultMessage": "Clear all"
+    "defaultMessage": "Vymazat vše"
   },
   "clear.filters": {
-    "defaultMessage": "Clear filters to see nft's"
+    "defaultMessage": "Vymažte filtry pro zobrazení NFTs"
   },
   "clear.transactions": {
-    "defaultMessage": "Clear Transactions",
+    "defaultMessage": "Vymazat transakce",
     "description": "Clear transactions button label"
   },
   "clone.page": {
-    "defaultMessage": "Clone page"
+    "defaultMessage": "Duplikovat stránku"
   },
   "clone.section": {
-    "defaultMessage": "Clone section"
+    "defaultMessage": "Duplikovat sekci"
   },
   "close": {
-    "defaultMessage": "Close"
+    "defaultMessage": "Zavřít"
   },
   "close.modal": {
-    "defaultMessage": "Close modal"
+    "defaultMessage": "Zavřít modal"
   },
   "cname": {
     "defaultMessage": "CNAME"
   },
   "collection": {
-    "defaultMessage": "Collection"
+    "defaultMessage": "Kolekce"
   },
   "collection.background.image": {
-    "defaultMessage": "Collection background image"
+    "defaultMessage": "Obrázek na pozadí kolekce"
   },
   "collection.created": {
-    "defaultMessage": "Collection created"
+    "defaultMessage": "Kolekce vytvořena"
   },
   "collection.created.error": {
-    "defaultMessage": "Collection created error"
+    "defaultMessage": "Chyba při vytváření kolekce"
   },
   "collection.image": {
-    "defaultMessage": "Collection image"
+    "defaultMessage": "Obrázek kolekce"
   },
   "collection.metadata.error": {
-    "defaultMessage": "Collection metadata error"
+    "defaultMessage": "Chyba v metadatech kolekce"
   },
   "collection.metadata.not.saved": {
-    "defaultMessage": "Your collection metadata was not saved"
+    "defaultMessage": "Metadata Vaší kolekce nebyla uložena"
   },
   "collection.metadata.saved": {
-    "defaultMessage": "Collection metadata saved"
+    "defaultMessage": "Metadata kolekce byla uložena"
   },
   "collection.preview": {
-    "defaultMessage": "Collection preview"
+    "defaultMessage": "Náhled kolekce"
   },
   "collection.removed": {
-    "defaultMessage": "Collection removed"
+    "defaultMessage": "Kolekce odstraněna"
   },
   "collection.saved": {
-    "defaultMessage": "Collection saved"
+    "defaultMessage": "Kolekce uložena"
   },
   "collections": {
-    "defaultMessage": "Collections"
+    "defaultMessage": "Kolekce"
   },
   "configure.domain": {
-    "defaultMessage": "Configure Domain"
+    "defaultMessage": "Konfigurace domény"
   },
   "confirm": {
-    "defaultMessage": "Confirm"
+    "defaultMessage": "Potvrdit"
   },
   "confirm.sign.message": {
-    "defaultMessage": "Please, sign the message on your wallet"
+    "defaultMessage": "Podepište zprávu ve Vaší peněžence"
   },
   "confirm.swap": {
-    "defaultMessage": "Confirm swap",
+    "defaultMessage": "Potvrdit swap",
     "description": "Confirm swap"
   },
   "confirm.the.transaction.on.your.wallet": {
-    "defaultMessage": "Please, confirm the transaction on your wallet",
+    "defaultMessage": "Potvrďte transakci ve Vaší peněžence",
     "description": "Transaction dialog message before transaction be confirmed in the wallet"
   },
   "connect.now": {
-    "defaultMessage": "Connect now"
+    "defaultMessage": "Připojte se nyní"
   },
   "connect.wallet": {
-    "defaultMessage": "Connect Wallet",
+    "defaultMessage": "Připojit peněženku",
     "description": "Connect wallet button"
   },
   "connect.wallet.to.see.or.upload.images": {
-    "defaultMessage": "Connect wallet to see or upload images."
+    "defaultMessage": "Pro zobrazení, nebo nahrání obrázků připojte peněženku"
   },
   "connect.your.wallet": {
-    "defaultMessage": "Connect your wallet"
+    "defaultMessage": "Připojte peněženku"
   },
   "contact.us": {
-    "defaultMessage": "Contact us",
+    "defaultMessage": "Kontaktujte nás",
     "description": "Contact us"
   },
   "continue": {
-    "defaultMessage": "Continue"
+    "defaultMessage": "Pokračovat"
   },
   "contract.address": {
-    "defaultMessage": "Contract address"
+    "defaultMessage": "Adresa kontraktu"
   },
   "copied": {
-    "defaultMessage": "Copied!",
+    "defaultMessage": "Zkopírováno!",
     "description": "Copied text"
   },
   "copy": {
-    "defaultMessage": "Copy",
+    "defaultMessage": "Zkopírovat",
     "description": "Copy text"
   },
   "create": {
-    "defaultMessage": "Create"
+    "defaultMessage": "Vytvořit"
   },
   "create.collection": {
-    "defaultMessage": "Create Collection"
+    "defaultMessage": "Vytvořit kolekci"
   },
   "create.listing": {
-    "defaultMessage": "Create Listing"
+    "defaultMessage": "Vytvořit nabídku"
   },
   "create.marketplace": {
-    "defaultMessage": "Create Marketplace"
+    "defaultMessage": "Vytvořit tržiště"
   },
   "create.menu": {
-    "defaultMessage": "Create menu"
+    "defaultMessage": "Vytvořit menu"
   },
   "create.nft": {
-    "defaultMessage": "Create NFTs"
+    "defaultMessage": "Vytvořit NFTs"
   },
   "create.nfts": {
-    "defaultMessage": "Create NFTs"
+    "defaultMessage": "Vytvořit NFTs"
   },
   "create.offer": {
-    "defaultMessage": "Create Offer"
+    "defaultMessage": "Vytvořit nabídku"
   },
   "create.page": {
-    "defaultMessage": "Create page"
+    "defaultMessage": "Vytvořit stránku"
   },
   "create.submenu": {
-    "defaultMessage": "Create submenu"
+    "defaultMessage": "Vytvořit podnabídku"
   },
   "create.yout.marketplace": {
-    "defaultMessage": "Create your Marketplace"
+    "defaultMessage": "Vytvořte svůj Marketplace"
   },
   "created.by": {
-    "defaultMessage": "Created by"
+    "defaultMessage": "Vytvořil"
   },
   "creating.a.listing": {
-    "defaultMessage": "Creating a listing"
+    "defaultMessage": "Vytvářím nabídku"
   },
   "creating.an.offer": {
-    "defaultMessage": "Creating an offer"
+    "defaultMessage": "Vytvářím nabídku"
   },
   "creating.collection": {
-    "defaultMessage": "Saving collection metadata"
+    "defaultMessage": "Ukládání metadat kolekce"
   },
   "creating.collection.check.wallet": {
-    "defaultMessage": "Creating collection on chain. Check wallet and accept transaction!"
+    "defaultMessage": "Vytváření kolekce na blockchainu. Zkontrolute peněženku a potvrďte transakci!"
   },
   "creating.nfts": {
-    "defaultMessage": "Saving NFTs metadata"
+    "defaultMessage": "Ukládání metadat NFT"
   },
   "creating.nfts.check.wallet": {
-    "defaultMessage": "Creating NFTs on chain. Check wallet and accept transaction!"
+    "defaultMessage": "Vytváření NFT na blockchainu. Zkontrolute peněženku a potvrďte transakci!"
   },
   "creating.token": {
-    "defaultMessage": "Creating Token"
+    "defaultMessage": "Vytváření Tokenu"
   },
   "currency": {
-    "defaultMessage": "Currency"
+    "defaultMessage": "Měna"
   },
   "custom.page.editor": {
-    "defaultMessage": "Custom Page Editor"
+    "defaultMessage": "Editor vlastních stránek"
   },
   "customize.colors": {
-    "defaultMessage": "Customize colours"
+    "defaultMessage": "Přizpůsobit barvy"
   },
   "dark": {
-    "defaultMessage": "Dark"
+    "defaultMessage": "Tmavý"
   },
   "dark.mode": {
-    "defaultMessage": "Dark mode"
+    "defaultMessage": "Tmavý motiv"
   },
   "data": {
     "defaultMessage": "Data"
   },
   "date": {
-    "defaultMessage": "Date"
+    "defaultMessage": "Datum"
   },
   "decimals": {
     "defaultMessage": "Decimals"
   },
   "default": {
-    "defaultMessage": "Default"
+    "defaultMessage": "Výchozí"
   },
   "delete.page": {
-    "defaultMessage": "Delete page {page}"
+    "defaultMessage": "Odstranit stránku {page}"
   },
   "deleting.image": {
-    "defaultMessage": "Deleting image"
+    "defaultMessage": "Odstraňování obrázku"
   },
   "deploy": {
-    "defaultMessage": "Deploy"
+    "defaultMessage": "Nasadit"
   },
   "deploying.domain": {
-    "defaultMessage": "Deploying domain"
+    "defaultMessage": "Nasazuji doménu"
   },
   "description": {
-    "defaultMessage": "Description"
+    "defaultMessage": "Popis"
   },
   "details": {
-    "defaultMessage": "Details"
+    "defaultMessage": "Detaily"
   },
   "do.you.really.want.to.create.these.nfts": {
-    "defaultMessage": "Do you really want to create these NFTs?"
+    "defaultMessage": "Opravdu chcete vytvořit tyto NFT?"
   },
   "do.you.really.want.to.create.this.collection": {
-    "defaultMessage": "Do you really want to create this collection?"
+    "defaultMessage": "Opravdu chcete vytvořit tuhle kolekci?"
   },
   "do.you.really.want.to.delete.this.image": {
-    "defaultMessage": "Do you really want to delete this image?"
+    "defaultMessage": "Opravdu chcete odstranit tento obrázek?"
   },
   "do.you.really.want.to.delete.this.page": {
-    "defaultMessage": "Do you really want to delete {page} page?"
+    "defaultMessage": "Opravdu chcete odstranit stránku {page}?"
   },
   "do.you.really.want.to.deploy.this.domain": {
-    "defaultMessage": "Do you really want to deploy this domain: {domain}"
+    "defaultMessage": "Opravdu chcete nasadit tuhle doménu: {domain}"
   },
   "do.you.really.want.to.edit.this.nfts": {
-    "defaultMessage": "Do you really want to edit this NFT?"
+    "defaultMessage": "Opravdu chcete upravit tyto NFT?"
   },
   "do.you.really.want.to.remove.this.marketplace": {
-    "defaultMessage": "Do you really want to remove this marketplace"
+    "defaultMessage": "Opravdu chcete odstranit tohle tržiště?"
   },
   "do.you.really.want.to.remove.this.nft": {
-    "defaultMessage": "Do you really want to remove this NFT?"
+    "defaultMessage": "Opravdu chcete odstranit tohle NFT?"
   },
   "do.you.really.want.to.remove.this.page.template": {
-    "defaultMessage": "Do you really want to remove this page template #{id}"
+    "defaultMessage": "Opravdu chcete odstranit šablonu stránky #{id}?"
   },
   "do.you.really.want.to.send.this.marketplace.settings": {
-    "defaultMessage": "Do you really want to send it?"
+    "defaultMessage": "Opravdu to chcete odeslat?"
   },
   "do.you.want.to.remove.all.number.tokens": {
-    "defaultMessage": "Do you want to remove all {count} tokens?"
+    "defaultMessage": "Chcete odstranit všechny {count} tokeny?"
   },
   "do.you.want.to.remove.nft": {
-    "defaultMessage": "Do you want to remove this NFT from your favorites?"
+    "defaultMessage": "Chcete tohle NFT odebrat ze svých oblíbených?"
   },
   "do.you.want.to.remove.this.collection": {
-    "defaultMessage": "Do you want to remove this collection?"
+    "defaultMessage": "Chcete odstranit tuto kolekci?"
   },
   "do.you.want.to.remove.this.section": {
-    "defaultMessage": "Do you want to remove this section?"
+    "defaultMessage": "Chcete odstranit tuto sekci?"
   },
   "do.you.want.to.remove.this.token": {
-    "defaultMessage": "Do you want to remove this token?"
+    "defaultMessage": "Chcete odstranit tento token?"
   },
   "domain.error.propagated": {
-    "defaultMessage": "Domain still not propagated"
+    "defaultMessage": "Doména stále není propagována"
   },
   "domain.records": {
-    "defaultMessage": "Domain records"
+    "defaultMessage": "Záznamy domény"
   },
   "domains": {
-    "defaultMessage": "Domain"
+    "defaultMessage": "Doména"
   },
   "down": {
-    "defaultMessage": "Down"
+    "defaultMessage": "Dolů"
   },
   "edit": {
-    "defaultMessage": "Edit"
+    "defaultMessage": "Upravit"
   },
   "edit.analytics": {
-    "defaultMessage": "Edit analytics"
+    "defaultMessage": "Upravit analytika"
   },
   "edit.footer.menu": {
-    "defaultMessage": "Edit Footer menu"
+    "defaultMessage": "Upravit nabídku v zápatí"
   },
   "edit.marketplace": {
-    "defaultMessage": "Edit Marketplace"
+    "defaultMessage": "Upravit tržiště"
   },
   "edit.marketplace.fees": {
-    "defaultMessage": "Edit marketplace fees"
+    "defaultMessage": "Nastavit poplatky tržiště"
   },
   "edit.marketplace.menu": {
-    "defaultMessage": "Edit Marketplace menu"
+    "defaultMessage": "Upravit nabídku tržiště"
   },
   "edit.nft.id": {
-    "defaultMessage": "Edit NFT {id}"
+    "defaultMessage": "Upravit NFT {id}"
   },
   "edit.nft.metadata": {
-    "defaultMessage": "Edit NFT metadata"
+    "defaultMessage": "Upravit NFT metadata"
   },
   "edit.page.sections": {
-    "defaultMessage": "Edit page sections"
+    "defaultMessage": "Upravit sekce stránky"
   },
   "edit.section": {
-    "defaultMessage": "Edit section"
+    "defaultMessage": "Upravit sekci"
   },
   "edit.social": {
-    "defaultMessage": "Edit social"
+    "defaultMessage": "Upravit sociální sítě"
   },
   "edit.swap.fees": {
-    "defaultMessage": "Edit swap fees"
+    "defaultMessage": "Upravit poplatky swapu"
   },
   "editing.nft": {
-    "defaultMessage": "Editing NFT metadata"
+    "defaultMessage": "Upravuji NFT metadata"
   },
   "email": {
     "defaultMessage": "E-mail"
   },
   "email.to.receive.notifications": {
-    "defaultMessage": "Email to receive notifications"
+    "defaultMessage": "E-mail pro zasílání upozornění"
   },
   "empty.gallery.start.adding.images": {
-    "defaultMessage": "Empty gallery. Start adding images."
+    "defaultMessage": "Prázdná galerie. Přidejte obrázky."
   },
   "error": {
-    "defaultMessage": "Error"
+    "defaultMessage": "Chyba"
   },
   "error.try.again": {
-    "defaultMessage": "Error. Try again?"
+    "defaultMessage": "Chyba. Zkuste to znovu."
   },
   "error.while.importing.nft": {
-    "defaultMessage": "Error while importing NFT: {error}"
+    "defaultMessage": "Chyba při importování NFT: {error}"
   },
   "expiration": {
-    "defaultMessage": "Expiration",
+    "defaultMessage": "Expirace",
     "description": "Expiration"
   },
   "expired": {
-    "defaultMessage": "Expired"
+    "defaultMessage": "Po expiraci"
   },
   "expires.in": {
-    "defaultMessage": "Expires In"
+    "defaultMessage": "Expiruje za "
   },
   "expiry": {
-    "defaultMessage": "Expiry"
+    "defaultMessage": "Expirace"
   },
   "explore": {
-    "defaultMessage": "Explore",
+    "defaultMessage": "Prozkoumat",
     "description": "Collection card explorer button"
   },
   "exporation": {
-    "defaultMessage": "Expiration"
+    "defaultMessage": "Expirace"
   },
   "export": {
-    "defaultMessage": "Export"
+    "defaultMessage": "Exportovat"
   },
   "external": {
-    "defaultMessage": "External"
+    "defaultMessage": "Externí"
   },
   "favicon": {
     "defaultMessage": "Favicon"
   },
   "favorite": {
-    "defaultMessage": "Favorite"
+    "defaultMessage": "Oblíbené"
   },
   "featured": {
-    "defaultMessage": "Featured"
+    "defaultMessage": "Zvýrazněné"
   },
   "fee": {
-    "defaultMessage": "Fees"
+    "defaultMessage": "Poplatky"
   },
   "fee.percentage": {
-    "defaultMessage": "Fee percentage"
+    "defaultMessage": "procento poplatků"
   },
   "fetching.best.price": {
-    "defaultMessage": "Fetching best price"
+    "defaultMessage": "Získávání nejlepší ceny"
   },
   "fiat.price": {
-    "defaultMessage": "{currency} Price",
+    "defaultMessage": "{currency} Cena",
     "description": "Fiat price"
   },
   "floor.price": {
-    "defaultMessage": "Floor price"
+    "defaultMessage": "Nejnižší cena"
   },
   "footer.menu": {
-    "defaultMessage": "Footer menu"
+    "defaultMessage": "Menu v zápatí"
   },
   "from": {
-    "defaultMessage": "From",
+    "defaultMessage": "Od",
     "description": "From"
   },
   "gallery": {
-    "defaultMessage": "Gallery"
+    "defaultMessage": "Galerie"
   },
   "general": {
-    "defaultMessage": "General"
+    "defaultMessage": "Všeobecné"
   },
   "general.information": {
-    "defaultMessage": "General information"
+    "defaultMessage": "Všeobecné informace"
   },
   "generic": {
-    "defaultMessage": "Generic"
+    "defaultMessage": "Obecný"
   },
   "google.analytics.example.tag": {
-    "defaultMessage": "Example of tag: G-LWRHJH7JLF"
+    "defaultMessage": "Ukázka tagu: G-LWRHJH7JLF"
   },
   "google.analytics.tag": {
     "defaultMessage": "Google analytics tag"
   },
   "hide": {
-    "defaultMessage": "Hide"
+    "defaultMessage": "Skrýt"
   },
   "highest.sale": {
-    "defaultMessage": "Highest sale"
+    "defaultMessage": "Nejvyšší prodej"
   },
   "home": {
-    "defaultMessage": "Home"
+    "defaultMessage": "Domů"
   },
   "id": {
     "defaultMessage": "Id"
   },
   "image.deleted": {
-    "defaultMessage": "Image deleted"
+    "defaultMessage": "Obrázek odstraněn"
   },
   "image.url": {
-    "defaultMessage": "Image Url"
+    "defaultMessage": "URL Obrázku"
   },
   "import": {
-    "defaultMessage": "Import"
+    "defaultMessage": "Importovat"
   },
   "import.nft": {
-    "defaultMessage": "Import NFT"
+    "defaultMessage": "Importovat NFT"
   },
   "import.or.favorite.nfts": {
-    "defaultMessage": "Import or favorite NFTs"
+    "defaultMessage": "Importujte nebo přidejte NFT do oblíbených"
   },
   "import.token": {
-    "defaultMessage": "Import Token",
+    "defaultMessage": "Importovat Token",
     "description": "Import token dialog title"
   },
   "import.token.lists": {
-    "defaultMessage": "Import Token lists"
+    "defaultMessage": "Importovat seznamy tokenů"
   },
   "info.create.collection.dialog": {
-    "defaultMessage": "Please don't close modal or reload app till finish data submission!"
+    "defaultMessage": "Neobnovujte aplikaci a nezavírejte modal, dokud nebude dokončeno odesílání dat!"
   },
   "info.create.nfts": {
-    "defaultMessage": "To create NFTs, name and image are mandatory. When creating the nfts please wait till end, could take a while to finish!"
+    "defaultMessage": "Pro vytvoření NFT je nezbytný název a obrázek. Při vytváření počkejte, může to chvíli trvat!"
   },
   "info.create.nfts.dialog": {
-    "defaultMessage": "Please don't close modal or reload app till finish data submission!"
+    "defaultMessage": "Neobnovujte aplikaci a nezavírejte modal, dokud nebude dokončeno odesílání dat!"
   },
   "info.edit.nft.dialog": {
-    "defaultMessage": "Please don't close modal or reload app till finish data submission!"
+    "defaultMessage": "Neobnovujte aplikaci a nezavírejte modal, dokud nebude dokončeno odesílání dat!"
   },
   "info.wizard.content.cname": {
-    "defaultMessage": "Deploy your domain, make sure first your domain is not used with other records. After domain successfully added to our system you will receive a CNAME and A record to be added to your DNS provider. After added the CNAME and A record, press button check deploy status, if status VERIFIED, wait for domain to propagate and you will have your marketplace set on your custom domain. Note, if you are on a subdomain, replace @ with subdomain value. Any issue contact our support channels."
+    "defaultMessage": "Nasaďte doménu. První se ujistěte, že vaše doména nepoužívá jiné záznamy. Po úspěšném přidání domény do našeho systému obdržíte záznamy A a CNAME, které přidáte do DNS u svého registrátora. Po přidání záznamů A a CNAME klikněte na tlačítko zkonzrolovat stav. Pokud je stav OVĚŘEN, máte tržiště nasazeno na vlastní doméně. Pokud používáte subdoménu, nezapomeňte nahradit @ s hodnotou subdomény. V případě nejasností kontaktujte podporu."
   },
   "info.wizard.title.domain.records.setup": {
-    "defaultMessage": "Domain records setup info"
+    "defaultMessage": "Informace o nastavení záznamů domény"
   },
   "insert.valid.html": {
-    "defaultMessage": "Insert valid HTML"
+    "defaultMessage": "Vložte platný HTML kód"
   },
   "instagram": {
     "defaultMessage": "Instagram"
   },
   "insufficient.funds": {
-    "defaultMessage": "insufficient funds"
+    "defaultMessage": "Nedostatečné množství prostředků"
   },
   "invalid.price": {
-    "defaultMessage": "Invalid price"
+    "defaultMessage": "Neplatná cena"
   },
   "is.powered.by": {
     "defaultMessage": "is powered by",
     "description": "is powered by"
   },
   "item.type": {
-    "defaultMessage": "Item Type"
+    "defaultMessage": "Typ položky"
   },
   "items": {
-    "defaultMessage": "Items"
+    "defaultMessage": "Položky"
   },
   "language": {
-    "defaultMessage": "Language"
+    "defaultMessage": "Jazyk"
   },
   "layout": {
-    "defaultMessage": "Layout"
+    "defaultMessage": "Rozložení"
   },
   "light": {
-    "defaultMessage": "Light"
+    "defaultMessage": "Světlý"
   },
   "listing.price": {
-    "defaultMessage": "Listing price"
+    "defaultMessage": "Cena"
   },
   "listings": {
-    "defaultMessage": "Listings"
+    "defaultMessage": "Nabídky"
   },
   "lists": {
-    "defaultMessage": "Lists"
+    "defaultMessage": "Seznamy"
   },
   "logo": {
     "defaultMessage": "Logo"
   },
   "logout.wallet": {
-    "defaultMessage": "Logout wallet"
+    "defaultMessage": "Odpojit peněženku"
   },
   "make.offer": {
-    "defaultMessage": "Make Offer",
+    "defaultMessage": "Vytvořit nabídku",
     "description": "Make Offer"
   },
   "make.token.available.on.the.marketplace": {
-    "defaultMessage": "Make token available on the marketplace"
+    "defaultMessage": "Zpřístupněte token na tržišti"
   },
   "market.cap": {
-    "defaultMessage": "Market cap"
+    "defaultMessage": "Tržní kapitalizace"
   },
   "marketplace.domain.added": {
-    "defaultMessage": "Marketplace domain added"
+    "defaultMessage": "Doména byla přidána"
   },
   "marketplace.fee": {
-    "defaultMessage": "Marketplace fee"
+    "defaultMessage": "Poplatek tržiště"
   },
   "marketplace.fees": {
-    "defaultMessage": "Marketplace fees"
+    "defaultMessage": "Poplatky tržiště"
   },
   "marketplace.removed": {
-    "defaultMessage": "Marketplace Removed"
+    "defaultMessage": "Tržiště odstraněno"
   },
   "marketplace.setup": {
-    "defaultMessage": "Marketplace Setup"
+    "defaultMessage": "Nastavení tržiště"
   },
   "marketplace.theme": {
-    "defaultMessage": "Marketplace Theme"
+    "defaultMessage": "Motiv tržiště"
   },
   "marketplaces": {
-    "defaultMessage": "Marketplaces"
+    "defaultMessage": "Tržiště"
   },
   "max": {
-    "defaultMessage": "Max"
+    "defaultMessage": "Maximální"
   },
   "max.image.size": {
-    "defaultMessage": "Max image size: 1 Mb"
+    "defaultMessage": "Maximální velikost obrázku: 1 Mb"
   },
   "menu": {
     "defaultMessage": "Menu"
   },
   "move.section.down": {
-    "defaultMessage": "Move section down"
+    "defaultMessage": "Přesunout sekci dolů"
   },
   "move.section.up": {
-    "defaultMessage": "Move section up"
+    "defaultMessage": "Přesunout sekci nahoru"
   },
   "name": {
-    "defaultMessage": "Name"
+    "defaultMessage": "Název"
   },
   "name.of.your.marketplace": {
-    "defaultMessage": "Name of your marketplace"
+    "defaultMessage": "Název vašeho tržiště"
   },
   "networks": {
-    "defaultMessage": "Networks"
+    "defaultMessage": "Sítě"
   },
   "new": {
-    "defaultMessage": "New"
+    "defaultMessage": "Nový"
   },
   "nft.already.imported": {
-    "defaultMessage": "NFT already imported"
+    "defaultMessage": "NFT je již importované"
   },
   "nft.image": {
-    "defaultMessage": "NFT Image"
+    "defaultMessage": "Obrázek NFT"
   },
   "nft.imported": {
-    "defaultMessage": "NFT imported"
+    "defaultMessage": "NFT bylo importované"
   },
   "nft.metadata.error": {
-    "defaultMessage": "NFT metadata error"
+    "defaultMessage": "Chyba v metadatech NFT"
   },
   "nft.metadata.not.saved": {
-    "defaultMessage": "Your nft metadata was not saved"
+    "defaultMessage": "NFT metadata nebyla uložena"
   },
   "nft.removed.from.your.favorites": {
-    "defaultMessage": "NFT removed from your favorites"
+    "defaultMessage": "NFT bylo odstraněno z vašich oblíbených"
   },
   "nfts": {
     "defaultMessage": "NFTs"
   },
   "nfts.created": {
-    "defaultMessage": "NFTs created"
+    "defaultMessage": "NFTs byla vytvořena"
   },
   "nfts.created.error": {
-    "defaultMessage": "NFTs created error"
+    "defaultMessage": "Chyba při vytváření NFTs"
   },
   "nfts.metadata.edited": {
-    "defaultMessage": "NFTs metadata edited"
+    "defaultMessage": "metadata NFTs byla upravena"
   },
   "nfts.metadata.error": {
-    "defaultMessage": "NFTs metadata error"
+    "defaultMessage": "Chyba v metadatech NFTs"
   },
   "nfts.metadata.not.saved": {
-    "defaultMessage": "Your nfts metadata were not saved"
+    "defaultMessage": "metadata NFTs nebyla uložena"
   },
   "nfts.metadata.saved": {
-    "defaultMessage": "NFTs metadata saved"
+    "defaultMessage": "metadata NFTs byla uložena"
   },
   "nfts.not.found": {
-    "defaultMessage": "NFT's not found"
+    "defaultMessage": "NFTs nenalezeny"
   },
   "no.available.offers": {
-    "defaultMessage": "No Available offers",
+    "defaultMessage": "Žádné dostupné nabídky",
     "description": "No Available offers message"
   },
   "no.hidden.nfts.found": {
-    "defaultMessage": "No hidden NFTs Found"
+    "defaultMessage": "Nebyly nalezeny žádné skryté NFTs."
   },
   "no.images.found.with.that.name": {
-    "defaultMessage": "No images found with that name."
+    "defaultMessage": "Nebyly nalezeny žádné obrázky s tímto názvem"
   },
   "no.listings.yet": {
-    "defaultMessage": "No listings yet"
+    "defaultMessage": "Zatím žádné nabídky"
   },
   "no.nfts.found": {
-    "defaultMessage": "No NFTs Found"
+    "defaultMessage": "Nebyly nalezeny žádné NFTs"
   },
   "no.offers.yet": {
-    "defaultMessage": "No offers yet"
+    "defaultMessage": "Zatím žádné nabídky"
   },
   "no.orders.found": {
-    "defaultMessage": "No Orders Found"
+    "defaultMessage": "Nebyly nalezeny žádné objednávky"
   },
   "no.tokens": {
-    "defaultMessage": "No Tokens"
+    "defaultMessage": "Žádné tokeny"
   },
   "not.deployed": {
-    "defaultMessage": "Not deployed"
+    "defaultMessage": "Nenasazeno"
   },
   "not.verified": {
-    "defaultMessage": "Not verified"
+    "defaultMessage": "Neověřeno"
   },
   "nothing.to.see.here": {
-    "defaultMessage": "Nothing to see here"
+    "defaultMessage": "Není tu nic k zobrazení"
   },
   "number": {
-    "defaultMessage": "Number"
+    "defaultMessage": "Číslo"
   },
   "offer": {
-    "defaultMessage": "Offer"
+    "defaultMessage": "Nabídka"
   },
   "offers": {
-    "defaultMessage": "Offers"
+    "defaultMessage": "Nabídky"
   },
   "oops.nothing.here": {
-    "defaultMessage": "Oops! Nothing here"
+    "defaultMessage": "Jejda! Tady nic není"
   },
   "oops.something.went.wrong": {
-    "defaultMessage": "Oops, something went wrong"
+    "defaultMessage": "Jejda! Něco se pokazilo"
   },
   "open": {
-    "defaultMessage": "Open"
+    "defaultMessage": "Otevřít"
   },
   "or": {
-    "defaultMessage": "Or"
+    "defaultMessage": "Nebo"
   },
   "order": {
-    "defaultMessage": "Order"
+    "defaultMessage": "Objednávka"
   },
   "order.created": {
-    "defaultMessage": "Order #{id} Created"
+    "defaultMessage": "Objednávka #{id} byla vytvořena"
   },
   "owned.by": {
-    "defaultMessage": "Owned by"
+    "defaultMessage": "Vlastník"
   },
   "owners": {
-    "defaultMessage": "Owners"
+    "defaultMessage": "Vlastníci"
   },
   "page": {
-    "defaultMessage": "Page"
+    "defaultMessage": "Stránka"
   },
   "page.preview.title": {
-    "defaultMessage": "{title} page preview"
+    "defaultMessage": "Náhled stránky {title}"
   },
   "page.template.removed": {
-    "defaultMessage": "Page template removed"
+    "defaultMessage": "Šablona stránky odstraněna"
   },
   "page.templates": {
-    "defaultMessage": "Page templates"
+    "defaultMessage": "Šablony stránek"
   },
   "page.wizard": {
-    "defaultMessage": "Page wizard"
+    "defaultMessage": "Průvodce stránek"
   },
   "pages": {
-    "defaultMessage": "Pages"
+    "defaultMessage": "Stránky"
   },
   "please.connect.your.wallet": {
-    "defaultMessage": "Please, connect your wallet to see orders"
+    "defaultMessage": "Chcete-li zobrazit objednávky, připojte svou peněženku"
   },
   "please.login.with.your.wallet.to.delete.your.image": {
-    "defaultMessage": "Please, login with your wallet to delete your image"
+    "defaultMessage": "Pro odstranění obrázku se přihlaste pomocí své peněženky"
   },
   "please.sign.the.settings.with.your.wallet": {
-    "defaultMessage": "Please, sign the settings with your wallet"
+    "defaultMessage": "Potvrďte nastavení svojí peněženkou"
   },
   "please.try.again.later": {
-    "defaultMessage": "Please, try again later"
+    "defaultMessage": "Zkuste to znovu později"
   },
   "please.wait.for.the.block.confirmation": {
-    "defaultMessage": "Wait for the block confirmation",
+    "defaultMessage": "Počkejte na potvrzení bloku",
     "description": "Transaction dialog message after transaction confirmation in the wallet"
   },
   "post.offers": {
-    "defaultMessage": "Post offers",
+    "defaultMessage": "Odeslat nabídky",
     "description": "Post offers"
   },
   "preview": {
-    "defaultMessage": "Preview"
+    "defaultMessage": "Náhled"
   },
   "preview.page": {
-    "defaultMessage": "Preview page"
+    "defaultMessage": "Náhled stránky"
   },
   "preview.url": {
-    "defaultMessage": "Preview Url"
+    "defaultMessage": "Náhled URL"
   },
   "price": {
-    "defaultMessage": "Price",
+    "defaultMessage": "Cena",
     "description": "Price label"
   },
   "price.fiat": {
-    "defaultMessage": "Price {currency}"
+    "defaultMessage": "Cena {currency}"
   },
   "provider.not.found": {
-    "defaultMessage": "Provider not found"
+    "defaultMessage": "Poskytovatel nebyl nalezen"
   },
   "reason": {
-    "defaultMessage": "Reason"
+    "defaultMessage": "Důvod"
   },
   "recipient": {
-    "defaultMessage": "Recipient"
+    "defaultMessage": "Příjemce"
   },
   "recipient.address.already.in.use": {
-    "defaultMessage": "Recipient address already in use"
+    "defaultMessage": "Adresa příjemce se již používá"
   },
   "remove": {
-    "defaultMessage": "Remove"
+    "defaultMessage": "Odstranit"
   },
   "remove.image": {
-    "defaultMessage": "Remove Image"
+    "defaultMessage": "Odstranit obrázek"
   },
   "remove.nft": {
-    "defaultMessage": "Remove NFT",
+    "defaultMessage": "Odstranit NFT",
     "description": "Remove nft dialog title"
   },
   "remove.page": {
-    "defaultMessage": "Remove page"
+    "defaultMessage": "Odstranit stránku"
   },
   "remove.section": {
-    "defaultMessage": "Remove section"
+    "defaultMessage": "Odstranit sekci"
   },
   "royalty.percentage": {
     "defaultMessage": "Royalty (%)"
   },
   "save": {
-    "defaultMessage": "Save"
+    "defaultMessage": "Uložit"
   },
   "save.collection.metadata": {
-    "defaultMessage": "Save collection metadata"
+    "defaultMessage": "Uložit metadata kolekce"
   },
   "save.nfts.metadata": {
-    "defaultMessage": "Save NFTs metadata"
+    "defaultMessage": "Uložit metadata NFTs"
   },
   "save.section": {
-    "defaultMessage": "Save section"
+    "defaultMessage": "Uložit sekci"
   },
   "search": {
-    "defaultMessage": "Search"
+    "defaultMessage": "Vyhledávání"
   },
   "search.for.a.nft": {
-    "defaultMessage": "Search for a NFT"
+    "defaultMessage": "Vyhledejte NFT"
   },
   "search.for.token": {
-    "defaultMessage": "Search for tokens..."
+    "defaultMessage": "Vyhledejte tokeny..."
   },
   "section.editor": {
-    "defaultMessage": "Section editor"
+    "defaultMessage": "Editor sekce"
   },
   "section.type": {
-    "defaultMessage": "Section type"
+    "defaultMessage": "Typ sekce"
   },
   "see.all": {
-    "defaultMessage": "See all"
+    "defaultMessage": "Zobrazit všechny"
   },
   "select": {
-    "defaultMessage": "Select"
+    "defaultMessage": "Vybrat"
   },
   "select.a.token": {
-    "defaultMessage": "Select a token",
+    "defaultMessage": "Vyberte token",
     "description": "Select a token message"
   },
   "select.all": {
-    "defaultMessage": "Select all"
+    "defaultMessage": "Vybrat vše"
   },
   "select.currency": {
-    "defaultMessage": "Select currency",
+    "defaultMessage": "Vyberte měnu",
     "description": "Select currency"
   },
   "select.image": {
-    "defaultMessage": "Select Image"
+    "defaultMessage": "Vyberte Obrázek"
   },
   "select.items": {
-    "defaultMessage": "Select items"
+    "defaultMessage": "Vyberte položky"
   },
   "select.language": {
-    "defaultMessage": "Select language",
+    "defaultMessage": "Vyberte jazyk",
     "description": "Select language"
   },
   "select.network": {
-    "defaultMessage": "Select Network",
+    "defaultMessage": "Vyberte Síť",
     "description": "select network dialog title"
   },
   "select.tokens.for.your.marketplace": {
-    "defaultMessage": "Select tokens for your marketplace"
+    "defaultMessage": "Vyberte tokeny pro své tržiště"
   },
   "sell": {
-    "defaultMessage": "Sell",
+    "defaultMessage": "Prodat",
     "description": "Sell button"
   },
   "sell.asset": {
-    "defaultMessage": "Sell asset",
+    "defaultMessage": "Prodat asset",
     "description": "Sell asset dialog title"
   },
   "send.settings": {
-    "defaultMessage": "Send settings"
+    "defaultMessage": "Odeslat nastavení"
   },
   "sending.config": {
-    "defaultMessage": "Sending Config"
+    "defaultMessage": "Odeslání konfigurace"
   },
   "sending.marketplace.settings": {
-    "defaultMessage": "Sending marketplace settings"
+    "defaultMessage": "Odesílání nastavení tržiště"
   },
   "sending.page.template.data": {
-    "defaultMessage": "Sending page template data"
+    "defaultMessage": "Odesílání dat šablony stránky"
   },
   "sending.page.template.settings": {
-    "defaultMessage": "Sending page template settings"
+    "defaultMessage": "Odesílání nastavení šablony stránky"
   },
   "sent.successfully": {
-    "defaultMessage": "Sent successfully"
+    "defaultMessage": "Odeslání bylo úspěšné"
   },
   "seo": {
     "defaultMessage": "SEO"
   },
   "seo.settings": {
-    "defaultMessage": "SEO Settings"
+    "defaultMessage": "Nastavení SEO "
   },
   "settings": {
-    "defaultMessage": "Settings"
+    "defaultMessage": "Nastavení"
   },
   "share": {
-    "defaultMessage": "Share",
+    "defaultMessage": "Sdílet",
     "description": "Menu share option in offers table"
   },
   "share.image": {
-    "defaultMessage": "Share image"
+    "defaultMessage": "Sdílet obrázek"
   },
   "share.your.address": {
-    "defaultMessage": "Share your address"
+    "defaultMessage": "Sdílejte svou adresu peněženky"
   },
   "sign.message": {
-    "defaultMessage": "Sign Message",
+    "defaultMessage": "Podepište zprávu v peněžence",
     "description": "Sign message dialog title"
   },
   "simple": {
-    "defaultMessage": "Simple"
+    "defaultMessage": "Jednoduchý"
   },
   "slippage.is.above.one.hundred.percent": {
-    "defaultMessage": "Slippage is above 100%"
+    "defaultMessage": "Slippage je nad 100 %"
   },
   "slippage.is.below.zero": {
-    "defaultMessage": "Slippage is below zero"
+    "defaultMessage": "Slippage je pod 0"
   },
   "social": {
-    "defaultMessage": "Social"
+    "defaultMessage": "Sociální sítě"
   },
   "something.went.wrong": {
-    "defaultMessage": "Oops, something went wrong",
+    "defaultMessage": "Jejda! Něco se pokazilo",
     "description": "Something went wrong error message"
   },
   "start.creating.collections": {
-    "defaultMessage": "Start creating collections"
+    "defaultMessage": "Začněte vytvářet kolekce"
   },
   "start.for.free": {
-    "defaultMessage": "Start for free"
+    "defaultMessage": "Začněte zdarma"
   },
   "start.posting.offers.collection": {
-    "defaultMessage": "Start posting offers for this collection",
+    "defaultMessage": "Začněte dělat nabídky pro tuto kolekci",
     "description": "Start posting offers for this collection"
   },
   "status": {
-    "defaultMessage": "Status"
+    "defaultMessage": "Stav"
   },
   "subtitle": {
-    "defaultMessage": "Subtitle"
+    "defaultMessage": "Podtitulek"
   },
   "swap": {
     "defaultMessage": "Swap"
   },
   "swap.fees": {
-    "defaultMessage": "Swap fees"
+    "defaultMessage": "Poplatky Swapu"
   },
   "swap.notification": {
-    "defaultMessage": "Swap {sellAmount} {sellSymbol} for {buyAmount} {buySymbol}",
+    "defaultMessage": "Swapnout {sellAmount} {sellSymbol} za {buyAmount} {buySymbol}",
     "description": "Swap notification description"
   },
   "swap.settings": {
-    "defaultMessage": "Swap Settings"
+    "defaultMessage": "Nastavení Swapu"
   },
   "switch": {
-    "defaultMessage": "Switch",
+    "defaultMessage": "Přepnout",
     "description": "switch"
   },
   "switch.network": {
-    "defaultMessage": "Switch network",
+    "defaultMessage": "Přepnout síť",
     "description": "Switch network dialog title"
   },
   "switch.network.content.text": {
-    "defaultMessage": "Please, switch to {chainName} network on your wallet to continue",
+    "defaultMessage": "Chcete-li pokračovat, přepněte svou peněženku na síť {chainName}",
     "description": "Switch network dialog content text"
   },
   "switch.to.network": {
-    "defaultMessage": "Switch to {network} network"
+    "defaultMessage": "Přepněte na síť {network}"
   },
   "symbol": {
     "defaultMessage": "Symbol"
   },
   "text.field": {
-    "defaultMessage": "Text field"
+    "defaultMessage": "Textové pole"
   },
   "the.buyer.will.pay.percentage.in.fees": {
-    "defaultMessage": "The buyer will pay {price} {symbol} +{percentage} in fees"
+    "defaultMessage": "Kupující zaplatí {price} {symbol} + {percentage} poplatek"
   },
   "the.nft.has.no.metadata": {
-    "defaultMessage": "The NFT has no metadata"
+    "defaultMessage": "NFT neobsahuje žádná metadata"
   },
   "theme": {
-    "defaultMessage": "Theme"
+    "defaultMessage": "Motiv"
   },
   "theme.preview": {
-    "defaultMessage": "Theme Preview"
+    "defaultMessage": "Náhled motivu"
   },
   "this.token.is.available.on.the.marketplace": {
-    "defaultMessage": "This token is available on the marketplace"
+    "defaultMessage": "Tento token je dostupný na tržišti"
   },
   "title": {
-    "defaultMessage": "Title"
+    "defaultMessage": "Název"
   },
   "token": {
     "defaultMessage": "Token"
   },
   "token.added": {
-    "defaultMessage": "Token added"
+    "defaultMessage": "Token přidán"
   },
   "token.already.imported": {
-    "defaultMessage": "Token already imported"
+    "defaultMessage": "Token již importován"
   },
   "token.created": {
-    "defaultMessage": "Token created"
+    "defaultMessage": "Token vytvořen"
   },
   "token.id": {
     "defaultMessage": "Token Id"
   },
   "tokens": {
-    "defaultMessage": "Tokens"
+    "defaultMessage": "Tokeny"
   },
   "total": {
-    "defaultMessage": "Total"
+    "defaultMessage": "Celkově"
   },
   "total.volume": {
-    "defaultMessage": "Total volume"
+    "defaultMessage": "Celkový objem"
   },
   "tradable": {
-    "defaultMessage": "Tradable"
+    "defaultMessage": "Obchodovatelný"
   },
   "transaction": {
-    "defaultMessage": "Transaction"
+    "defaultMessage": "Transakce"
   },
   "transaction.confirm.transaction": {
-    "defaultMessage": "Confirm transaction"
+    "defaultMessage": "Potvrďte transakci"
   },
   "transaction.confirmed": {
-    "defaultMessage": "Transaction confirmed"
+    "defaultMessage": "Transakce potvrzena"
   },
   "transaction.cost": {
-    "defaultMessage": "Transaction cost"
+    "defaultMessage": "Náklady transakce"
   },
   "transaction.failed": {
-    "defaultMessage": "Transaction failed"
+    "defaultMessage": "Transakce selhala"
   },
   "transaction.waiting.confirmation": {
-    "defaultMessage": "Waiting confirmation"
+    "defaultMessage": "Čekání na potvrzení"
   },
   "transactions": {
-    "defaultMessage": "Transactions",
+    "defaultMessage": "Transakce",
     "description": "Transactions dialog title"
   },
   "try.again": {
-    "defaultMessage": "Try again",
+    "defaultMessage": "Zkuste to znovu",
     "description": "Try again"
   },
   "twitter": {
     "defaultMessage": "Twitter"
   },
   "type": {
-    "defaultMessage": "Type"
+    "defaultMessage": "Typ"
   },
   "unhide": {
-    "defaultMessage": "Unhide"
+    "defaultMessage": "Odkrýt"
   },
   "unknown.collection": {
-    "defaultMessage": "Unknown collection"
+    "defaultMessage": "Neznámá kolekce"
   },
   "unknown.name": {
-    "defaultMessage": "Unknown name"
+    "defaultMessage": "Neznámý název"
   },
   "unknown.token": {
-    "defaultMessage": "Unknown token"
+    "defaultMessage": "Neznámý token"
   },
   "up": {
-    "defaultMessage": "Up"
+    "defaultMessage": "Nahoru"
   },
   "update.nft": {
-    "defaultMessage": "Update NFT"
+    "defaultMessage": "Aktualizace NFT"
   },
   "upload": {
-    "defaultMessage": "Upload"
+    "defaultMessage": "Nahrát"
   },
   "uploaded": {
-    "defaultMessage": "Uploaded"
+    "defaultMessage": "Nahráno"
   },
   "uploading": {
-    "defaultMessage": "Uploading"
+    "defaultMessage": "Nahrávání"
   },
   "uri": {
     "defaultMessage": "Uri"
   },
   "url": {
-    "defaultMessage": "Domain"
+    "defaultMessage": "Doména"
   },
   "use.home.as.title.not.allowed": {
-    "defaultMessage": "Use Home as title is not allowed for pages"
+    "defaultMessage": "Název Home pro stránky není povolen"
   },
   "value": {
-    "defaultMessage": "Value"
+    "defaultMessage": "Hodnota"
   },
   "variant": {
-    "defaultMessage": "Variant"
+    "defaultMessage": "Varianta"
   },
   "verified": {
-    "defaultMessage": "Verified"
+    "defaultMessage": "Ověřený"
   },
   "verifying.domain": {
-    "defaultMessage": "Verifying Domain"
+    "defaultMessage": "Ověřování domény"
   },
   "video": {
     "defaultMessage": "Video"
   },
   "video.type": {
-    "defaultMessage": "Video Type"
+    "defaultMessage": "Typ videa"
   },
   "video.url": {
-    "defaultMessage": "Video URL"
+    "defaultMessage": "URL videa"
   },
   "view": {
-    "defaultMessage": "view"
+    "defaultMessage": "Zobrazit"
   },
   "view.collection": {
-    "defaultMessage": "View collection"
+    "defaultMessage": "Zobrazit kolekci"
   },
   "view.marketplace": {
-    "defaultMessage": "View Marketplace"
+    "defaultMessage": "Zobrazit Tržiště"
   },
   "view.marketplaces": {
-    "defaultMessage": "View Marketplaces"
+    "defaultMessage": "Zobrazit Tržiště"
   },
   "view.nfts": {
-    "defaultMessage": "View nfts"
+    "defaultMessage": "Zobrazit NFTs"
   },
   "view.order": {
-    "defaultMessage": "View Order"
+    "defaultMessage": "Zobrazit objednávku"
   },
   "view.page.templates": {
-    "defaultMessage": "View page templates"
+    "defaultMessage": "Zobrazit šablony stránek"
   },
   "view.section": {
-    "defaultMessage": "View section"
+    "defaultMessage": "Zobrazit sekci"
   },
   "view.token": {
-    "defaultMessage": "View token"
+    "defaultMessage": "Zobrazit token"
   },
   "view.transaction": {
-    "defaultMessage": "View Transaction",
+    "defaultMessage": "Zobrazit transakci",
     "description": "View transaction"
   },
   "visible.for": {
-    "defaultMessage": "Visible for"
+    "defaultMessage": "Viditelné pro"
   },
   "wait.transaction.to.complete": {
-    "defaultMessage": "Wait transaction to complete"
+    "defaultMessage": "Počkejte na dokončení transakce"
   },
   "wallet": {
-    "defaultMessage": "Wallet"
+    "defaultMessage": "Peněženka"
   },
   "wallet.is.not.connected": {
-    "defaultMessage": "Wallet is not connected"
+    "defaultMessage": "Peněženka není připojena"
   },
   "wizard": {
-    "defaultMessage": "Wizard"
+    "defaultMessage": "Průvodce nastavením"
   },
   "wizard.collections.section.info": {
-    "defaultMessage": "Collections displayed by default on collection list page"
+    "defaultMessage": "Výchozí kolekce zobrazené na stránce kolekce"
   },
   "wizard.welcome.index.message": {
-    "defaultMessage": "Welcome to DexKit Marketplace wizard! This is a beta product with constant development and at the moment is offered for free. If you need support please reach us on our <a>dedicated Discord channel</a>. Please check our <d>docs</d> for whitelabels. Reach us at our email <b>info@dexkit.com</b> if you need a custom solution that the wizard not attend."
+    "defaultMessage": "Vítejte v průvodci tržiště DexKit! Tento produkt je v beta fázi s neustálým vývojem a je nabízen zdarma. Pokud potřebujete podporu, kontaktujte nás na našem Discord serveru. Pro více informací se podívejte do dokumentace. Pokud potřebujete řešení, které DexKit průvodce nenabízí, obraťte se na náš email info@dexkit.com"
   },
   "you": {
-    "defaultMessage": "you"
+    "defaultMessage": "Ty"
   },
   "you.are.cloning": {
-    "defaultMessage": "You are cloning site: <b>{site}</b>. Check it live <a>here</a>"
+    "defaultMessage": "Klonování webu <b>{site}</b>. Zkontrolujte to <a>zde</a></a>"
   },
   "you.are.cloning.page.message": {
-    "defaultMessage": "You are cloning {page} page"
+    "defaultMessage": "Klonování stránky {page}"
   },
   "you.are.paying.percentage.in.fees": {
-    "defaultMessage": "You are paying {price} {symbol} + {percentage} in fees"
+    "defaultMessage": "Zaplatíte {price} {symbol} + {percentage} poplatek"
   },
   "you.need.to.add.or.import.tokens.so.users.can.make.trades": {
-    "defaultMessage": "You need to add or import tokens so users can make trades"
+    "defaultMessage": "Musíte přidat nebo importovat tokeny, aby uživatelé mohli obchodovat"
   },
   "you.own": {
-    "defaultMessage": "You own"
+    "defaultMessage": "Vlastníte"
   },
   "you.pay": {
-    "defaultMessage": "You pay"
+    "defaultMessage": "Platíte"
   },
   "you.receive": {
-    "defaultMessage": "You receive"
+    "defaultMessage": "Obdržíte"
   },
   "you.selected.more.than.amoount": {
-    "defaultMessage": "You selected {amount} tokens. The limit is {tokenLimit}"
+    "defaultMessage": "Vybrali jste {amount} tokenů. Limit je {tokenLimit}"
   },
   "your.collection.not.created.onchain": {
-    "defaultMessage": "Your collection was not created onchain"
+    "defaultMessage": "Vaše kolekce nebyla vytvořena na blockchainu"
   },
   "your.collection.was.created.onchain": {
-    "defaultMessage": "Your collection was created onchain"
+    "defaultMessage": "Vaše kolekce byla vytvořena na blockchainu"
   },
   "your.collection.was.created.successfully": {
-    "defaultMessage": "Your collection was created successfully"
+    "defaultMessage": "Vaše kolekce byla úspěšně vytvořena"
   },
   "your.fees.are.above.the.limit": {
-    "defaultMessage": "Your fees ({total}%) are above the limit ({maxFee}%)"
+    "defaultMessage": "Vaše poplatky ({total} %) jsou nad limitem ({maxFee} %)"
   },
   "your.image.was.deleted.successfully": {
-    "defaultMessage": "Your image was deleted successfully"
+    "defaultMessage": "Váš obrázek byl úspěšně odstraněn"
   },
   "your.marketplace.domain.was.added.to.our.system": {
-    "defaultMessage": "Your marketplace domain was added to our system. Please add CNAME to your DNS provider and after that check domain status often till propagate"
+    "defaultMessage": "Doména byla přidána do našeho systému. Přidejte CNAME u svého poskytovatele DNS a zkontrolujte stav domény."
   },
   "your.marketplace.domain.was.verified.to.our.system": {
-    "defaultMessage": "Your marketplace domain was verified on our system. Wait for domain to propagate and then visit your domain."
+    "defaultMessage": "Doména tržiště byla ověřena v našem systému"
   },
   "your.marketplace.settings.was.sent.successfully": {
-    "defaultMessage": "Your config was sent successfully"
+    "defaultMessage": "Vaše konfigurace byla úspěšně odeslána"
   },
   "your.nft.not.created.onchain": {
-    "defaultMessage": "Your NFTs were not created onchain"
+    "defaultMessage": "Vaše NFTs nebyly vytvořeny na blockchainu"
   },
   "your.nfts.was.created.successfully": {
-    "defaultMessage": "Your nfts was created successfully"
+    "defaultMessage": "Vaše NFTs byly vytvořeny na blockchainu"
   },
   "your.nfts.was.edited.successfully": {
-    "defaultMessage": "Your nfts was edited successfully"
+    "defaultMessage": "Vaše NFTs byly úspěšně upraveny"
   },
   "your.nfts.were.created.onchain": {
-    "defaultMessage": "Your nfts were created onchain"
+    "defaultMessage": "Vaše NFTs byly vytvořeny na blockchainu"
   },
   "your.order.was.created.successfully": {
-    "defaultMessage": "Your order was created successfully"
+    "defaultMessage": "Vaše objednávka byla úspěšně vytvořena"
   },
   "your.transaction.has.been.confirmed": {
-    "defaultMessage": "Your transaction has been confirmed",
+    "defaultMessage": "Transakce byla potvrzena",
     "description": "Your transaction has been confirmed"
   },
   "youtube": {
