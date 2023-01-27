@@ -1318,7 +1318,7 @@
     "defaultMessage": "Ty"
   },
   "you.are.cloning": {
-    "defaultMessage": "Klonování webu <b>{site}</b>. Zkontrolujte to <a>zde</a></a>"
+    "defaultMessage": "Klonování webu <b>{site}</b>. Zkontrolujte to <a>zde</a>"
   },
   "you.are.cloning.page.message": {
     "defaultMessage": "Klonování stránky {page}"
