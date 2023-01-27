@@ -51,6 +51,7 @@ export const LANGUAGES: Language[] = [
   { name: 'English (US)', locale: 'en-US' },
   { name: 'Português (BR)', locale: 'pt-BR' },
   { name: 'Español (ES)', locale: 'es-ES' },
+  { name: 'Čeština (CZ)', locale: 'cs-CZ' },
 ];
 
 export const CURRENCIES: Currency[] = [{ symbol: 'usd', name: 'US Dollar' }];
