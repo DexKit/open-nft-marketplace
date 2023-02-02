@@ -56,7 +56,7 @@ If you need a zero code solution we are building one currently in beta at [wizar
 
 # Missing feature?
 
-We are welcome missing features, but take in mind that this is repo is intended to be base app for any dev to start working on, if it is makes sense to have that feature on this base app we will include, if it is considered a premium feature, we will be including on our premium marketplace which uses this one as base.
+We welcome missing features, but take in mind that this repo is intended to be a base app for any dev to start working on, if it makes sense to have that feature on this base app we will include, if it is considered a premium feature, we will be including on our premium marketplace which uses this one as a base.
 
 We at the moment consider premium features as follows:
 
