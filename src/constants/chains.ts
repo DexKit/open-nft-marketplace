@@ -1,4 +1,5 @@
 import type { AddEthereumChainParameter } from '@web3-react/types';
+import { ChainId } from './enum';
 
 const infuraKey = process.env.INFURA_API_KEY;
 
@@ -50,7 +51,7 @@ export function getAddChainParameters(
 export const CHAINS: {
   [chainId: number]: BasicChainInformation | ExtendedChainInformation;
 } = {
-  1: {
+  [ChainId.ETH]: {
     urls: [
       infuraKey ? `https://mainnet.infura.io/v3/${infuraKey}` : undefined,
       process.env.alchemyKey
@@ -60,13 +61,13 @@ export const CHAINS: {
     ].filter((url) => url !== undefined) as string[],
     name: 'Mainnet',
   },
-  3: {
+  [ChainId.Ropsten]: {
     urls: [
       infuraKey ? `https://ropsten.infura.io/v3/${infuraKey}` : undefined,
     ].filter((url) => url !== undefined) as string[],
     name: 'Ropsten',
   },
-  4: {
+  [ChainId.Rinkeby]: {
     urls: [
       infuraKey ? `https://rinkeby.infura.io/v3/${infuraKey}` : undefined,
     ].filter((url) => url !== undefined) as string[],
@@ -85,7 +86,7 @@ export const CHAINS: {
     name: 'Kovan',
   },
   // Optimism
-  10: {
+  [ChainId.Optimism]: {
     urls: [
       infuraKey
         ? `https://optimism-mainnet.infura.io/v3/${infuraKey}`
@@ -108,7 +109,7 @@ export const CHAINS: {
     blockExplorerUrls: ['https://kovan-optimistic.etherscan.io'],
   },
   // Arbitrum
-  42161: {
+  [ChainId.Arbitrum]: {
     urls: [
       infuraKey
         ? `https://arbitrum-mainnet.infura.io/v3/${infuraKey}`
@@ -131,7 +132,7 @@ export const CHAINS: {
     blockExplorerUrls: ['https://testnet.arbiscan.io'],
   },
   // Polygon
-  137: {
+  [ChainId.Polygon]: {
     urls: [
       infuraKey
         ? `https://polygon-mainnet.infura.io/v3/${infuraKey}`

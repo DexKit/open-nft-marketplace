@@ -9,10 +9,8 @@ import {
   tokensAtom
 } from '../state/atoms';
 import {
-  getChainLogoImage,
-  getChainName,
-  getNativeTokenSymbol,
-  switchNetwork
+  getNativeCurrencyImage,
+  getNativeCurrencySymbol, switchNetwork
 } from '../utils/blockchain';
 
 import { ZEROEX_NATIVE_TOKEN_ADDRESS } from '../constants';
@@ -101,9 +99,9 @@ export function useTokenList({
           address: wrappedAddress,
           chainId,
           decimals: 18,
-          logoURI: getChainLogoImage(chainId),
-          name: `Wrapped ${getNativeTokenSymbol(chainId)}`,
-          symbol: `W${getNativeTokenSymbol(chainId)}`,
+          logoURI: getNativeCurrencyImage(chainId),
+          name: `Wrapped ${getNativeCurrencySymbol(chainId)}`,
+          symbol: `W${getNativeCurrencySymbol(chainId)}`,
         } as Token,
         ...tokenList,
       ];
@@ -115,9 +113,9 @@ export function useTokenList({
           address: ZEROEX_NATIVE_TOKEN_ADDRESS,
           chainId,
           decimals: 18,
-          logoURI: getChainLogoImage(chainId),
-          name: getChainName(chainId),
-          symbol: getNativeTokenSymbol(chainId),
+          logoURI: getNativeCurrencyImage(chainId),
+          name: getNativeCurrencySymbol(chainId),
+          symbol: getNativeCurrencySymbol(chainId),
         },
         ...tokenList,
       ] as Token[];

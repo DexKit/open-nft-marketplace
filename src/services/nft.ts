@@ -9,6 +9,11 @@ import { getMulticallFromProvider } from './multical';
 
 import { TRADER_ORDERBOOK_API } from '../constants';
 import { TraderOrderFilter } from '../utils/types';
+import { isENSContract } from '../utils/nfts';
+
+const ENS_BASE_URL = 'https://metadata.ens.domains';
+
+const metadataENSapi = axios.create({ baseURL: ENS_BASE_URL });
 
 export async function getAssetData(
   provider?: ethers.providers.JsonRpcProvider,
@@ -17,6 +22,10 @@ export async function getAssetData(
 ): Promise<Asset | undefined> {
   if (!provider || !contractAddress || !id) {
     return;
+  }
+  if (isENSContract(contractAddress)) {
+    const data = await getENSAssetData(provider, contractAddress, id);
+    return data;
   }
 
   const multicall = await getMulticallFromProvider(provider);
@@ -64,6 +73,35 @@ export async function getAssetData(
       tokenURI,
       collectionName: name,
       symbol,
+      id,
+      contractAddress,
+      chainId,
+    };
+  }
+}
+
+export async function getENSAssetData(
+  provider?: ethers.providers.JsonRpcProvider,
+  contractAddress?: string,
+  id?: string
+): Promise<Asset | undefined> {
+  if (!provider || !contractAddress || !id) {
+    return;
+  }
+
+  const response = await metadataENSapi.get(`/mainnet/${contractAddress}/${id}`);
+  const data = response.data;
+  const iface = new Interface(ERC721Abi);
+  const contract = new ethers.Contract(contractAddress, iface, provider);
+  const owner = await contract.ownerOf(id);
+
+  if (data) {
+    const { chainId } = await provider.getNetwork();
+    return {
+      owner,
+      tokenURI: `${ENS_BASE_URL}/mainnet/${contractAddress}/${id}`,
+      collectionName: data.name,
+      symbol: 'ENS',
       id,
       contractAddress,
       chainId,
@@ -143,6 +181,18 @@ export async function getAssetsData(
   ids: string[],
   isERC1155 = false
 ): Promise<Asset[] | undefined> {
+  if (isENSContract(contractAddress)) {
+    const data: Asset[] = [];
+    for (const id of ids) {
+      const response = await getENSAssetData(provider, contractAddress, id);
+      if (response) {
+        data.push(response);
+      }
+    }
+    return data;
+  }
+
+
   const multicall = await getMulticallFromProvider(provider);
   const iface = new Interface(isERC1155 ? ERC1155Abi : ERC721Abi);
   let calls: CallInput[] = [];
@@ -196,9 +246,7 @@ export async function getAssetMetadata(
   if (tokenURI?.startsWith('data:application/json;base64')) {
     const jsonURI = Buffer.from(tokenURI.substring(29), "base64").toString();
     return JSON.parse(jsonURI);
-
   }
-
   try {
     const response = await axios.get<AssetMetadata>(
       ipfsUriToUrl(tokenURI || ''),

@@ -26,8 +26,13 @@ export function truncateErc1155TokenId(id?: string) {
   if (id === undefined) {
     return '';
   }
+  if (id.length > 12) {
+    return `${id.substring(0, 12)}...`;
+  } else {
+    return id;
+  }
 
-  return `${id.substring(0, 12)}...`;
+
 }
 
 export function getNFTMediaSrcAndType(address: string, chainId: ChainId, tokenId: string): { type: 'iframe' | 'image', src?: string } {
@@ -37,6 +42,14 @@ export function getNFTMediaSrcAndType(address: string, chainId: ChainId, tokenId
   }
 
   return { type: 'image' }
+}
 
+
+export function isENSContract(address: string) {
+  if (address.toLowerCase() === '0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85'.toLowerCase()) {
+    return true;
+  } else {
+    false;
+  }
 
 }

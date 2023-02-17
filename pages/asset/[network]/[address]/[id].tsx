@@ -23,6 +23,7 @@ import AssetHead from '../../../../src/modules/nft/components/AssetHead';
 import AssetLeftSection from '../../../../src/modules/nft/components/AssetLeftSection';
 import AssetRightSection from '../../../../src/modules/nft/components/AssetRightSection';
 import { getNetworkSlugFromChainId } from '../../../../src/utils/blockchain';
+import { truncateErc1155TokenId } from '../../../../src/utils/nfts';
 
 const AssetDetailPage: NextPage = () => {
   const router = useRouter();
@@ -61,7 +62,9 @@ const AssetDetailPage: NextPage = () => {
                   )}/${address}`,
                 },
                 {
-                  caption: `${asset?.collectionName} #${asset?.id}`,
+                  caption: `${asset?.collectionName} #${truncateErc1155TokenId(
+                    asset?.id
+                  )}`,
                   uri: `/asset/${getNetworkSlugFromChainId(
                     asset?.chainId
                   )}/${address}/${id}`,

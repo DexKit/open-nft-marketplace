@@ -44,6 +44,7 @@ export enum ChainId {
   Rinkeby = 4,
   Mumbai = 80001,
   Optimism = 10,
+  Arbitrum = 42161,
   CELO = 42220,
 }
 

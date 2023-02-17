@@ -20,7 +20,7 @@ If you implemented an issue requested by the community, please open a pull reque
 
 This is list of welcome contributions to this repo:
 
-- Adding languages
+- [Adding languages](./docs/ADD_LANGUAGE.md)
 - Fix language typo's
 - bug fix's reporting
 - Add tests
