@@ -14,6 +14,6 @@
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": -1,
   "javascript.updateImportsOnFileMove.enabled": "always"
 }
