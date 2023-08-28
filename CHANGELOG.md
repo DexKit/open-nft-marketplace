@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.0](https://github.com/DexKit/open-nft-marketplace/compare/v0.0.2...v0.1.0) (2023-08-28)
+
+
+### Features
+
+* add Czech language ([717e2f9](https://github.com/DexKit/open-nft-marketplace/commit/717e2f977b3966ba74e029429ec71863f36e67be))
+* **lang:** add czech language ([#16](https://github.com/DexKit/open-nft-marketplace/issues/16)) ([717e2f9](https://github.com/DexKit/open-nft-marketplace/commit/717e2f977b3966ba74e029429ec71863f36e67be))
+
 ## [0.0.2](https://github.com/DexKit/open-nft-marketplace/compare/v0.0.1...v0.0.2) (2023-02-01)
 
 
