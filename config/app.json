@@ -1,19 +1,14 @@
 {
-  "name": "Kittygotchi",
+  "name": "NFT-Marketplace",
   "locale": "en-US",
-  "currency": "usd",
+  "currency": "inr",
   "theme": "kittygotchi",
-  "url": "https://www.kittygotchi.com",
   "logo": {
-    "url": "/assets/images/market-logo.svg",
+    "url": "https://img.freepik.com/premium-psd/nft-3d-logo-high-resolution-non-fungible-token-blockchain_513203-175.jpg",
     "height": "",
     "width": ""
   },
   "favicon_url": "",
-  "social": [
-    { "type": "instagram", "handle": "dexkit_crew" },
-    { "type": "twitter", "handle": "dexkit" }
-  ],
   "transak": {
     "enabled": true
   },
@@ -29,31 +24,13 @@
   },
   "collections": [
     {
-      "image": "/assets/kittygotchi/banner_eth.svg",
-      "name": "Kittygotchi",
-      "backgroundImage": "/assets/kittygotchi/banner_eth.svg",
-      "chainId": 1,
-      "contractAddress": "0xe76591AD590765e9Ab9EdE82BEa274aFcF5Ce703",
-      "description": "",
-      "uri": "kittygotchieth"
-    },
-    {
-      "image": "/assets/kittygotchi/banner_bsc.svg",
-      "name": "Kittygotchi",
-      "backgroundImage": "/assets/kittygotchi/banner_bsc.svg",
-      "chainId": 56,
-      "contractAddress": "0xf44112926506318e3Aace4381B2D76791D980Ac3",
-      "description": "",
-      "uri": "kittygotchibsc"
-    },
-    {
-      "image": "/assets/kittygotchi/banner_polygon.svg",
-      "name": "Kittygotchi",
-      "backgroundImage": "/assets/kittygotchi/banner_polygon.svg",
+      "image": "https://i.pcmag.com/imagery/articles/049t9YtkWr14Pwhz8gGNptI-1..v1631298520.png",
+      "name": "cat_NFT",
+      "backgroundImage": "https://i.pcmag.com/imagery/articles/049t9YtkWr14Pwhz8gGNptI-1..v1631298520.png",
       "chainId": 137,
       "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
       "description": "",
-      "uri": "kittygotchi"
+      "uri": "cat_NFT"
     }
   ],
   "tokens": [
@@ -145,7 +122,7 @@
       "sections": [
         {
           "type": "featured",
-          "title": "Kittygotchi Marketplace",
+          "title": "NFT Marketplace",
           "items": [
             {
               "type": "asset",
@@ -161,10 +138,10 @@
             },
             {
               "type": "collection",
-              "title": "Kittygotchi",
+              "title": "Cat_NFT",
               "chainId": 137,
               "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
-              "backgroundImageUrl": "/assets/kittygotchi/banner.svg"
+              "backgroundImageUrl": "https://i.pcmag.com/imagery/articles/049t9YtkWr14Pwhz8gGNptI-1..v1631298520.png"
             }
           ]
         },
@@ -175,24 +152,24 @@
             {
               "featured": true,
               "type": "collection",
-              "title": "Kittygotchi",
+              "title": "Cat_NFT",
               "chainId": 137,
               "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
-              "backgroundImageUrl": "/assets/kittygotchi/banner_polygon.svg"
+              "backgroundImageUrl": "https://i.pcmag.com/imagery/articles/049t9YtkWr14Pwhz8gGNptI-1..v1631298520.png"
             },
             {
               "type": "collection",
-              "title": "Kittygotchi",
+              "title": "Cat_NFT",
               "chainId": 56,
               "contractAddress": "0xf44112926506318e3Aace4381B2D76791D980Ac3",
-              "backgroundImageUrl": "/assets/kittygotchi/banner_bsc.svg"
+              "backgroundImageUrl": "https://i.pcmag.com/imagery/articles/049t9YtkWr14Pwhz8gGNptI-1..v1631298520.png"
             },
             {
               "type": "collection",
-              "title": "Kittygotchi",
+              "title": "Cat_NFT",
               "chainId": 1,
               "contractAddress": "0xe76591AD590765e9Ab9EdE82BEa274aFcF5Ce703",
-              "backgroundImageUrl": "/assets/kittygotchi/banner_eth.svg"
+              "backgroundImageUrl": "https://i.pcmag.com/imagery/articles/049t9YtkWr14Pwhz8gGNptI-1..v1631298520.png"
             }
           ]
         },
@@ -205,7 +182,7 @@
         {
           "variant": "dark",
           "type": "call-to-action",
-          "title": "Kittygotchi",
+          "title": "Cat_NFT",
           "subtitle": "See your kitties on ETH, BSC and Polygon networks",
           "button": {
             "title": "See all",
@@ -231,8 +208,8 @@
   },
   "seo": {
     "home": {
-      "title": "Kittygotchi",
-      "description": "Kittygochi collection: create cute Kitty, make it unique, feed him to earn attack, speed, and defense, he will be here for you. Your Kitty gives you special powers on DexKit Dashboard"
+      "title": "NFT-Marketplace",
+      "description": "Cat collection: create cute kitties and see them on ETH, BSC and Polygon networks"
     }
   }
 }

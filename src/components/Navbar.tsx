@@ -170,44 +170,6 @@ function Navbar() {
           horizontal: 'left',
         }}
       >
-        <MenuItem onClick={handleShowSelectLocaleDialog}>
-          <ListItemIcon>
-            <Language />
-          </ListItemIcon>
-          <ListItemText
-            primary={
-              <FormattedMessage id="language" defaultMessage="Language" />
-            }
-            secondary={
-              <Typography
-                variant="body2"
-                color="textSecondary"
-                sx={{ fontWeight: 600 }}
-              >
-                {locale}
-              </Typography>
-            }
-          />
-        </MenuItem>
-        <MenuItem onClick={handleShowSelectCurrencyDialog}>
-          <ListItemIcon>
-            <AttachMoney />
-          </ListItemIcon>
-          <ListItemText
-            primary={
-              <FormattedMessage id="currency" defaultMessage="Currency" />
-            }
-            secondary={
-              <Typography
-                variant="body2"
-                color="textSecondary"
-                sx={{ fontWeight: 600 }}
-              >
-                {currency.toUpperCase()}
-              </Typography>
-            }
-          />
-        </MenuItem>
       </Menu>
       <AppTransactionsDialog
         dialogProps={{

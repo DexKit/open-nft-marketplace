@@ -179,7 +179,6 @@ const MainLayout: React.FC<Props> = ({ children, noSsr, disablePadding }) => {
       <Box sx={{ minHeight: '100vh' }} py={disablePadding ? 0 : 4}>
         {children}
       </Box>
-      <Footer />
     </>
   );
 

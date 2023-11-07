@@ -34,19 +34,8 @@ const Home: NextPage<{ sections: AppPageSection[] }> = ({ sections }) => {
             key={index}
           />
         );
-      } else if (section.type === 'video') {
-        return (
-          <VideoSection
-            embedType={section.embedType}
-            videoUrl={section.videoUrl}
-            title={section.title}
-            key={index}
-          />
-        );
       } else if (section.type === 'call-to-action') {
         return <CallToActionSection section={section} key={index} />;
-      } else if (section.type === 'collections') {
-        return <CollectionsSection key={index} section={section} />;
       }
     });
   };

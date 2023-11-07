@@ -11,6 +11,7 @@ module.exports = {
       'arpeggi.io',
       'arweave.net',
       'metadata.ens.domains',
+      'i.pcmag.com'
     ],
   },
 };
