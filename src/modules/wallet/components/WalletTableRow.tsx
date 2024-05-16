@@ -7,7 +7,7 @@ import {
   Typography,
 } from '@mui/material';
 import { useWeb3React } from '@web3-react/core';
-import { ethers } from 'ethers';
+import { utils } from 'ethers';
 import { FormattedNumber } from 'react-intl';
 
 import { TokenBalance } from '../../../types/blockchain';
@@ -30,7 +30,7 @@ function WalletTableRow({
   const { chainId } = useWeb3React();
   const { token, balance } = tokenBalance;
 
-  const balanceUnits = ethers.utils.formatUnits(balance || '0', token.decimals);
+  const balanceUnits = utils.formatUnits(balance || '0', token.decimals);
 
   const totalInCurrency = (
     <FormattedNumber

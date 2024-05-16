@@ -1,4 +1,4 @@
-import { ethers } from 'ethers';
+import { utils } from 'ethers';
 import { useMemo } from 'react';
 import { FormattedNumber } from 'react-intl';
 import { useERC20BalancesQuery } from '../../../hooks/balances';
@@ -18,7 +18,7 @@ export function WalletTotalBalance() {
 
       const tokenBalances = tokenBalancesQuery.data.map((tb) => {
         return {
-          balanceUnits: ethers.utils.formatUnits(tb.balance, tb.token.decimals),
+          balanceUnits: utils.formatUnits(tb.balance, tb.token.decimals),
           address: tb.token.address.toLowerCase(),
         };
       });

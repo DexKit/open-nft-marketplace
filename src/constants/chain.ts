@@ -9,7 +9,6 @@ import ethIcon from '../../public/assets/images/icons/eth.png';
 import polygonIcon from '../../public/assets/images/icons/polygon.png';
 import arbitrumIcon from '../../public/assets/images/icons/arbitrum.png';
 
-const infuraKey = process.env.INFURA_API_KEY;
 
 export const NETWORKS: { [key: number]: Network } = {
   [ChainId.ETH]: {
@@ -21,7 +20,7 @@ export const NETWORKS: { [key: number]: Network } = {
     coingeckoId: 'ethereum',
     wrappedAddress: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
     imageUrl: ethIcon.src,
-    providerRpcUrl: `https://mainnet.infura.io/v3/${infuraKey}`,
+    providerRpcUrl: `https://eth.llamarpc.com`,
   },
   [ChainId.Mumbai]: {
     chainId: ChainId.Mumbai,
@@ -53,29 +52,18 @@ export const NETWORKS: { [key: number]: Network } = {
     slug: 'bsc',
     coingeckoId: 'binancecoin',
     wrappedAddress: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
-    providerRpcUrl: 'https://bscrpc.com',
+    providerRpcUrl: 'https://binance.llamarpc.com',
     imageUrl: bscIcon.src,
   },
-  [ChainId.Rinkeby]: {
+  [ChainId.Sepolia]: {
     chainId: ChainId.Rinkeby,
     symbol: 'ETH',
-    explorerUrl: 'https://rinkeby.etherscan.io',
-    name: 'Rinkeby',
-    slug: 'rinkeby',
-    wrappedAddress: '0xc778417e063141139fce010982780140aa0cd5ab',
+    explorerUrl: 'https://sepolia.etherscan.io/',
+    name: 'Sepolia',
+    slug: 'sepolia',
+    wrappedAddress: '0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9',
     imageUrl: ethIcon.src,
-    providerRpcUrl: `https://rinkeby.infura.io/v3/${infuraKey}`,
-    testnet: true,
-  },
-  [ChainId.Ropsten]: {
-    chainId: ChainId.Ropsten,
-    symbol: 'ETH',
-    explorerUrl: 'https://ropsten.etherscan.io',
-    name: 'Ropsten',
-    slug: 'ropsten',
-    wrappedAddress: '0xc778417e063141139fce010982780140aa0cd5ab',
-    imageUrl: ethIcon.src,
-    providerRpcUrl: `https://ropsten.infura.io/v3/${infuraKey}`,
+    providerRpcUrl: `https://public.stackup.sh/api/v1/node/ethereum-sepolia`,
     testnet: true,
   },
   [ChainId.AVAX]: {
@@ -87,7 +75,7 @@ export const NETWORKS: { [key: number]: Network } = {
     coingeckoId: 'avalanche-2',
     wrappedAddress: '0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7',
     imageUrl: avaxIcon.src,
-    providerRpcUrl: 'https://api.avax.network/ext/bc/C/rpc',
+    providerRpcUrl: 'https://avalanche.public-rpc.com',
   },
   [ChainId.FANTOM]: {
     chainId: ChainId.FANTOM,

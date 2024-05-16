@@ -1,12 +1,12 @@
 import { Button, Grid, Paper, Stack } from '@mui/material';
 import { useWeb3React } from '@web3-react/core';
-import { ethers } from 'ethers';
+import type { BigNumber } from 'ethers';
 import { useCallback, useState } from 'react';
 import { FormattedMessage, useIntl } from 'react-intl';
 import Icon from '../../../components/Icon';
 import DollarSquare from '../../../components/icons/DollarSquare';
 
-import { SwappableAssetV4 } from '@traderxyz/nft-swap-sdk';
+import type { SwappableAssetV4 } from '@traderxyz/nft-swap-sdk';
 import { useQueryClient } from 'react-query';
 import {
   useConnectWalletDialog,
@@ -227,7 +227,7 @@ export function AssetPricePaper({ address, id }: Props) {
   const handleCloseMakeOfferDialog = () => setOpenMakeOffer(false);
 
   const handleConfirmMakeListing = async (
-    amount: ethers.BigNumber,
+    amount: BigNumber,
     tokenAddress: string,
     expiry: Date | null,
     takerAddress?: string
@@ -274,7 +274,7 @@ export function AssetPricePaper({ address, id }: Props) {
   };
 
   const handleConfirmMakeOffer = async (
-    amount: ethers.BigNumber,
+    amount: BigNumber,
     tokenAddress: string,
     expiry: Date | null
   ) => {

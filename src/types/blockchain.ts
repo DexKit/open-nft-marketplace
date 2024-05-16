@@ -1,5 +1,5 @@
-import { SwappableAssetV4 } from '@traderxyz/nft-swap-sdk';
-import { BigNumber } from 'ethers';
+
+import type { BigNumber } from 'ethers';
 import { ChainId } from '../constants/enum';
 import { Asset, SwapApiOrder } from './nft';
 

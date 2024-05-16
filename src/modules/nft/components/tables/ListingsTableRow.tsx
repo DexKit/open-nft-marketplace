@@ -11,7 +11,7 @@ import {
   Tooltip,
   Typography,
 } from '@mui/material';
-import { ethers } from 'ethers';
+import { utils } from 'ethers';
 import moment from 'moment';
 import { FormattedMessage, FormattedNumber } from 'react-intl';
 import {
@@ -79,7 +79,7 @@ export function ListingsTableRow({
           return (
             ratio *
             parseFloat(
-              ethers.utils.formatUnits(order?.erc20TokenAmount, token.decimals)
+              utils.formatUnits(order?.erc20TokenAmount, token.decimals)
             )
           );
         } else {
@@ -105,10 +105,7 @@ export function ListingsTableRow({
             />
           </Tooltip>
           <Typography variant="body1">
-            {ethers.utils.formatUnits(
-              order.erc20TokenAmount,
-              token?.decimals || 18
-            )}{' '}
+            {utils.formatUnits(order.erc20TokenAmount, token?.decimals || 18)}{' '}
             {token?.symbol.toUpperCase()}
           </Typography>
         </Stack>

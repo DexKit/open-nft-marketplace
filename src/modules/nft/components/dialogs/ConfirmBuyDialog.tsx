@@ -17,7 +17,7 @@ import { AppDialogTitle } from '../../../../components/AppDialogTitle';
 
 import { Box } from '@mui/material';
 import { useWeb3React } from '@web3-react/core';
-import { ethers } from 'ethers';
+import { utils, BigNumber } from 'ethers';
 import Image from 'next/image';
 import { useMemo } from 'react';
 import { FormattedMessage, FormattedNumber, useIntl } from 'react-intl';
@@ -72,7 +72,7 @@ export function ConfirmBuyDialog({
 
   const hasSufficientFunds = useMemo(() => {
     if (token !== undefined) {
-      const orderTokenAmount: ethers.BigNumber = ethers.BigNumber.from(
+      const orderTokenAmount: BigNumber = BigNumber.from(
         order?.erc20TokenAmount
       );
 
@@ -96,7 +96,7 @@ export function ConfirmBuyDialog({
           return (
             ratio *
             parseFloat(
-              ethers.utils.formatUnits(order?.erc20TokenAmount, token.decimals)
+              utils.formatUnits(order?.erc20TokenAmount, token.decimals)
             )
           );
         } else {
@@ -180,8 +180,8 @@ export function ConfirmBuyDialog({
                         />
                       </Tooltip>
                       <Typography sx={{ fontWeight: 600 }} variant="body1">
-                        {ethers.utils.formatUnits(
-                          ethers.BigNumber.from(order?.erc20TokenAmount || '0'),
+                        {utils.formatUnits(
+                          BigNumber.from(order?.erc20TokenAmount || '0'),
                           token?.decimals
                         )}{' '}
                         {token?.symbol}
@@ -244,8 +244,8 @@ export function ConfirmBuyDialog({
                   {erc20Balance.isLoading ? (
                     <Skeleton />
                   ) : (
-                    ethers.utils.formatUnits(
-                      erc20Balance.data || ethers.BigNumber.from(0),
+                    utils.formatUnits(
+                      erc20Balance.data || BigNumber.from(0),
                       token?.decimals
                     )
                   )}{' '}

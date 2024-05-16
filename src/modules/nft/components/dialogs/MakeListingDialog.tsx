@@ -23,7 +23,8 @@ import {
 
 import { AppDialogTitle } from '../../../../components/AppDialogTitle';
 
-import { ethers } from 'ethers';
+import { utils } from 'ethers';
+import type { BigNumber } from 'ethers';
 
 import moment from 'moment';
 import { useMemo } from 'react';
@@ -58,7 +59,7 @@ const FormSchema: Yup.SchemaOf<Form> = Yup.object().shape({
   expiry: Yup.date().required(),
   taker: Yup.string()
     .test('address', (value) => {
-      return value !== undefined ? ethers.utils.isAddress(value) : true;
+      return value !== undefined ? utils.isAddress(value) : true;
     })
     .notRequired(),
 });
@@ -69,7 +70,7 @@ interface Props {
   asset?: Asset;
   metadata?: AssetMetadata;
   onConfirm: (
-    price: ethers.BigNumber,
+    price: BigNumber,
     tokenAddress: string,
     expiry: Date | null,
     takerAddress?: string
@@ -109,7 +110,7 @@ export function MakeListingDialog({
       }
 
       onConfirm(
-        ethers.utils.parseUnits(values.price, decimals),
+        utils.parseUnits(values.price, decimals),
         values.tokenAddress,
         values.expiry || null,
         values.taker

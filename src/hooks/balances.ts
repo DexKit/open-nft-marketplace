@@ -1,6 +1,7 @@
-import { SwappableAssetV4 } from '@traderxyz/nft-swap-sdk';
+import type { SwappableAssetV4 } from '@traderxyz/nft-swap-sdk';
 import { useWeb3React } from '@web3-react/core';
-import { ethers } from 'ethers';
+import { Contract, BigNumber } from 'ethers';
+import type { providers } from 'ethers';
 import { useCallback } from 'react';
 import { useMutation, UseMutationOptions, useQuery } from 'react-query';
 import { ZEROEX_NATIVE_TOKEN_ADDRESS } from '../constants';
@@ -136,7 +137,7 @@ export const useERC20BalanceQuery = (token: Token) => {
 };
 
 export function useErc20ApproveMutation(
-  provider?: ethers.providers.Web3Provider,
+  provider?: providers.Web3Provider,
   onSuccess?: (hash: string, asset: SwappableAssetV4) => void,
   options?: Omit<UseMutationOptions, any>
 ) {
@@ -147,14 +148,14 @@ export function useErc20ApproveMutation(
       tokenAddress,
     }: {
       spender: string;
-      amount: ethers.BigNumber;
+      amount: BigNumber;
       tokenAddress?: string;
     }) => {
       if (!provider || tokenAddress === undefined) {
         return undefined;
       }
 
-      const contract = new ethers.Contract(
+      const contract = new Contract(
         tokenAddress,
         ERC20Abi,
         provider.getSigner()

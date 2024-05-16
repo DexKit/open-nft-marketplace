@@ -46,6 +46,7 @@ export enum ChainId {
   Optimism = 10,
   Arbitrum = 42161,
   CELO = 42220,
+  Sepolia = 11155111
 }
 
 export enum NFTType {

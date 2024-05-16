@@ -7,7 +7,7 @@ import metaMaskImage from '../../public/assets/images/metamask-fox.svg';
 import walletConnectImage from '../../public/assets/images/walletconnect-circle-blue.svg';
 
 import { Connector } from '@web3-react/types';
-import { ethers } from 'ethers';
+import { utils, providers } from 'ethers';
 import { NETWORKS } from '../constants/chain';
 
 export const getChainIdFromName = (chainName: string) => {
@@ -31,7 +31,7 @@ export const getNetworkSlugFromChainId = (chainId?: ChainId) => {
 export const getProviderByChainId = (chainId?: ChainId) => {
   if (chainId) {
     if (NETWORKS[chainId].providerRpcUrl) {
-      return new ethers.providers.JsonRpcProvider(
+      return new providers.JsonRpcProvider(
         NETWORKS[chainId].providerRpcUrl
       );
     }
@@ -39,7 +39,7 @@ export const getProviderByChainId = (chainId?: ChainId) => {
 };
 
 export const truncateAddress = (address: string | undefined) => {
-  if (address !== undefined && ethers.utils.isAddress(address)) {
+  if (address !== undefined && utils.isAddress(address)) {
     return `${address.slice(0, 7)}...${address.slice(address.length - 5)}`;
   }
   return '';
@@ -62,7 +62,7 @@ export function isAddressEqual(address?: string, other?: string) {
     return false;
   }
 
-  if (!ethers.utils.isAddress(address) || !ethers.utils.isAddress(other)) {
+  if (!utils.isAddress(address) || !utils.isAddress(other)) {
     return false;
   }
 

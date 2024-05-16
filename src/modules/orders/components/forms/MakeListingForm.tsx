@@ -16,7 +16,7 @@ import {
   Typography,
 } from '@mui/material';
 
-import { ethers } from 'ethers';
+import { utils, BigNumber } from 'ethers';
 
 import moment from 'moment';
 import { useMemo } from 'react';
@@ -49,7 +49,7 @@ const FormSchema: Yup.SchemaOf<Form> = Yup.object().shape({
   expiry: Yup.date().required(),
   taker: Yup.string()
     .test('address', (value) => {
-      return value !== undefined ? ethers.utils.isAddress(value) : true;
+      return value !== undefined ? utils.isAddress(value) : true;
     })
     .notRequired(),
 });
@@ -57,7 +57,7 @@ const FormSchema: Yup.SchemaOf<Form> = Yup.object().shape({
 interface Props {
   disabled?: boolean;
   onConfirm: (
-    price: ethers.BigNumber,
+    price: BigNumber,
     tokenAddress: string,
     expiry: Date | null,
     takerAddress?: string
@@ -90,7 +90,7 @@ export default function MakeListingForm({ onConfirm, disabled }: Props) {
       }
 
       onConfirm(
-        ethers.utils.parseUnits(values.price, decimals),
+        utils.parseUnits(values.price, decimals),
         values.tokenAddress,
         values.expiry || null,
         values.taker

@@ -62,6 +62,12 @@ const Home: NextPage<{ sections: AppPageSection[] }> = ({ sections }) => {
 export const getStaticProps: GetStaticProps =
   async ({}: GetStaticPropsContext) => {
     const queryClient = new QueryClient();
+    const config: AppConfig = getAppConfig();
+
+    const homePage = config.pages.home;
+    /* Disabling prefilling data 
+    
+    const queryClient = new QueryClient();
 
     const config: AppConfig = getAppConfig();
 
@@ -132,7 +138,7 @@ export const getStaticProps: GetStaticProps =
           }
         }
       }
-    }
+    }*/
 
     return {
       props: {

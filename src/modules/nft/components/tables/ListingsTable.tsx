@@ -14,7 +14,7 @@ import {
   TableRow,
   Typography,
 } from '@mui/material';
-import { ethers } from 'ethers';
+import { constants } from 'ethers';
 import {
   getNetworkSlugFromChainId,
   isAddressEqual,
@@ -111,7 +111,7 @@ export function ListingsTable({
       ({ order }: { order: SwapApiOrder }) => {
         return (
           moment.unix(parseInt(order.expiry)).isAfter(moment()) &&
-          (isAddressEqual(order.taker, ethers.constants.AddressZero) ||
+          (isAddressEqual(order.taker, constants.AddressZero) ||
             isAddressEqual(order.taker, account) ||
             isAddressEqual(order.maker, account))
         );

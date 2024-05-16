@@ -1,5 +1,5 @@
-import { Token, Transaction } from './blockchain';
-import { Asset } from './nft';
+import type { Token, Transaction } from './blockchain';
+import type { Asset } from './nft';
 
 export interface AppState {
   transactions: { [hash: string]: Transaction };

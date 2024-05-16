@@ -12,9 +12,9 @@ import {
   useTheme,
 } from '@mui/material';
 
-import { SwappableAssetV4 } from '@traderxyz/nft-swap-sdk';
+import type { SwappableAssetV4 } from '@traderxyz/nft-swap-sdk';
 import { useWeb3React } from '@web3-react/core';
-import { ethers } from 'ethers';
+import { utils, BigNumber, constants } from 'ethers';
 import moment from 'moment';
 import { useCallback, useMemo } from 'react';
 import { FormattedMessage } from 'react-intl';
@@ -84,8 +84,8 @@ function OrderRightSection({ order }: Props) {
 
   const amountFormatted = useMemo(() => {
     if (order && token) {
-      return ethers.utils.formatUnits(
-        ethers.BigNumber.from(order?.erc20TokenAmount || '0'),
+      return utils.formatUnits(
+        BigNumber.from(order?.erc20TokenAmount || '0'),
         token?.decimals
       );
     }
@@ -106,7 +106,7 @@ function OrderRightSection({ order }: Props) {
           return (
             ratio *
             parseFloat(
-              ethers.utils.formatUnits(order?.erc20TokenAmount, token.decimals)
+              utils.formatUnits(order?.erc20TokenAmount, token.decimals)
             )
           );
         } else {
@@ -550,7 +550,7 @@ function OrderRightSection({ order }: Props) {
           </Link>
         </Stack>
       </Paper>
-      {!isAddressEqual(order?.order.taker, ethers.constants.AddressZero) && (
+      {!isAddressEqual(order?.order.taker, constants.AddressZero) && (
         <Paper sx={{ p: 2 }}>
           <Stack
             direction="row"

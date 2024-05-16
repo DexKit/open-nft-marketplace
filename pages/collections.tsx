@@ -74,6 +74,8 @@ export const getStaticProps: GetStaticProps =
   async ({}: GetStaticPropsContext) => {
     const queryClient = new QueryClient();
 
+    /* Disabling prefilling data 
+    
     for (let collection of collectionListJson.collections) {
       const provider = getProviderByChainId(collection.chainId);
 
@@ -90,7 +92,7 @@ export const getStaticProps: GetStaticProps =
           async () => data
         );
       }
-    }
+    }*/
 
     return {
       props: {

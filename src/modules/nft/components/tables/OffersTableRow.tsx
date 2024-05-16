@@ -13,7 +13,7 @@ import {
   Typography,
 } from '@mui/material';
 
-import { ethers } from 'ethers';
+import { utils } from 'ethers';
 import Link from '../../../../components/Link';
 import {
   getBlockExplorerUrl,
@@ -81,7 +81,7 @@ function OffersTableRow({
           return (
             ratio *
             parseFloat(
-              ethers.utils.formatUnits(order?.erc20TokenAmount, token.decimals)
+              utils.formatUnits(order?.erc20TokenAmount, token.decimals)
             )
           );
         } else {
@@ -107,7 +107,7 @@ function OffersTableRow({
             />
           </Tooltip>
           <Typography variant="body1">
-            {ethers.utils.formatUnits(
+            {utils.formatUnits(
               order?.erc20TokenAmount || '0',
               token?.decimals || 18
             )}{' '}

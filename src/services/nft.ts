@@ -1,7 +1,8 @@
-import { CallInput } from '@indexed-finance/multicall';
+import type { CallInput } from '@indexed-finance/multicall';
 import axios from 'axios';
-import { ethers } from 'ethers';
-import { Interface } from 'ethers/lib/utils';
+import { Contract, utils } from 'ethers';
+import type { providers } from 'ethers';
+
 import { ERC1155Abi, ERC721Abi } from '../constants/abis';
 import { Asset, AssetMetadata, Collection, OrderBookItem } from '../types/nft';
 import { ipfsUriToUrl } from '../utils/ipfs';
@@ -16,7 +17,7 @@ const ENS_BASE_URL = 'https://metadata.ens.domains';
 const metadataENSapi = axios.create({ baseURL: ENS_BASE_URL });
 
 export async function getAssetData(
-  provider?: ethers.providers.JsonRpcProvider,
+  provider?: providers.JsonRpcProvider,
   contractAddress?: string,
   id?: string
 ): Promise<Asset | undefined> {
@@ -29,7 +30,7 @@ export async function getAssetData(
   }
 
   const multicall = await getMulticallFromProvider(provider);
-  const iface = new Interface(ERC721Abi);
+  const iface = new utils.Interface(ERC721Abi);
   let calls: CallInput[] = [];
   calls.push({
     interface: iface,
@@ -81,7 +82,7 @@ export async function getAssetData(
 }
 
 export async function getENSAssetData(
-  provider?: ethers.providers.JsonRpcProvider,
+  provider?: providers.JsonRpcProvider,
   contractAddress?: string,
   id?: string
 ): Promise<Asset | undefined> {
@@ -91,8 +92,8 @@ export async function getENSAssetData(
 
   const response = await metadataENSapi.get(`/mainnet/${contractAddress}/${id}`);
   const data = response.data;
-  const iface = new Interface(ERC721Abi);
-  const contract = new ethers.Contract(contractAddress, iface, provider);
+  const iface = new utils.Interface(ERC721Abi);
+  const contract = new Contract(contractAddress, iface, provider);
   const owner = await contract.ownerOf(id);
 
   if (data) {
@@ -110,7 +111,7 @@ export async function getENSAssetData(
 }
 
 export async function getCollectionData(
-  provider?: ethers.providers.JsonRpcProvider,
+  provider?: providers.JsonRpcProvider,
   contractAddress?: string
 ): Promise<Collection | undefined> {
   if (!provider || !contractAddress) {
@@ -118,7 +119,7 @@ export async function getCollectionData(
   }
 
   const multicall = await getMulticallFromProvider(provider);
-  const iface = new Interface(ERC721Abi);
+  const iface = new utils.Interface(ERC721Abi);
   let calls: CallInput[] = [];
 
   calls.push({
@@ -152,7 +153,7 @@ export async function getCollectionData(
 }
 
 export async function getAssetsFromOrderbook(
-  provider?: ethers.providers.JsonRpcProvider,
+  provider?: providers.JsonRpcProvider,
   filters?: TraderOrderFilter
 ) {
   if (provider === undefined || filters?.nftToken === undefined) {
@@ -176,7 +177,7 @@ export async function getAssetsFromOrderbook(
 
 //Return multiple assets at once
 export async function getAssetsData(
-  provider: ethers.providers.JsonRpcProvider,
+  provider: providers.JsonRpcProvider,
   contractAddress: string,
   ids: string[],
   isERC1155 = false
@@ -194,7 +195,7 @@ export async function getAssetsData(
 
 
   const multicall = await getMulticallFromProvider(provider);
-  const iface = new Interface(isERC1155 ? ERC1155Abi : ERC721Abi);
+  const iface = new utils.Interface(isERC1155 ? ERC1155Abi : ERC721Abi);
   let calls: CallInput[] = [];
   calls.push({
     interface: iface,

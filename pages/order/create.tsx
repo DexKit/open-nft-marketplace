@@ -19,9 +19,9 @@ import {
   useMediaQuery,
   useTheme,
 } from '@mui/material';
-import { SwappableAssetV4 } from '@traderxyz/nft-swap-sdk';
+import type { SwappableAssetV4 } from '@traderxyz/nft-swap-sdk';
 import { useWeb3React } from '@web3-react/core';
-import { ethers } from 'ethers';
+import type { BigNumber } from 'ethers';
 import { NextPage } from 'next';
 import Image from 'next/image';
 import { useCallback, useMemo, useState } from 'react';
@@ -237,7 +237,7 @@ export const OrdersIndex: NextPage = () => {
   });
 
   const handleConfirmMakeListing = async (
-    amount: ethers.BigNumber,
+    amount: BigNumber,
     tokenAddress: string,
     expiry: Date | null,
     takerAddress?: string
@@ -282,7 +282,7 @@ export const OrdersIndex: NextPage = () => {
   };
 
   const handleConfirmMakeOffer = async (
-    amount: ethers.BigNumber,
+    amount: BigNumber,
     tokenAddress: string,
     expiry: Date | null
   ) => {

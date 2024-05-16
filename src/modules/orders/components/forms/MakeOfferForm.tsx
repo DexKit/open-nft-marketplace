@@ -14,7 +14,7 @@ import {
   Typography,
 } from '@mui/material';
 
-import { BigNumber, ethers } from 'ethers';
+import { BigNumber, utils } from 'ethers';
 
 import { useWeb3React } from '@web3-react/core';
 import moment from 'moment';
@@ -57,7 +57,7 @@ interface Props {
   asset?: Asset;
   disabled?: boolean;
   onConfirm: (
-    price: ethers.BigNumber,
+    price: BigNumber,
     tokenAddress: string,
     expiry: Date | null
   ) => void;
@@ -86,7 +86,7 @@ export default function MakeOfferForm({ onConfirm, asset, disabled }: Props) {
     }
 
     onConfirm(
-      ethers.utils.parseUnits(values.price, decimals),
+      utils.parseUnits(values.price, decimals),
       values.tokenAddress,
       values.expiry || null
     );
@@ -106,7 +106,7 @@ export default function MakeOfferForm({ onConfirm, asset, disabled }: Props) {
       )?.decimals;
 
       if (values.price !== '' && isValidDecimal(values.price, decimals || 1)) {
-        const priceValue = ethers.utils.parseUnits(values.price);
+        const priceValue = utils.parseUnits(values.price);
 
         const errors: FormikErrors<Form> = {};
 
@@ -297,8 +297,8 @@ export default function MakeOfferForm({ onConfirm, asset, disabled }: Props) {
                   {erc20Balance.isLoading ? (
                     <Skeleton />
                   ) : (
-                    ethers.utils.formatUnits(
-                      erc20Balance.data || ethers.BigNumber.from(0),
+                    utils.formatUnits(
+                      erc20Balance.data || BigNumber.from(0),
                       tokenSelected.decimals
                     )
                   )}{' '}

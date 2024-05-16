@@ -6,7 +6,7 @@ import {
   TableRow,
   Typography,
 } from '@mui/material';
-import { ethers } from 'ethers';
+import { utils } from 'ethers';
 import moment from 'moment';
 import { useMemo } from 'react';
 import { FormattedMessage, FormattedNumber } from 'react-intl';
@@ -51,7 +51,7 @@ export function WalletOrdersTableRow({ order }: Props) {
               <FormattedNumber
                 currency={currency}
                 value={parseFloat(
-                  ethers.utils.formatUnits(
+                  utils.formatUnits(
                     order.order.erc20TokenAmount,
                     token.decimals
                   )
@@ -81,7 +81,7 @@ export function WalletOrdersTableRow({ order }: Props) {
           return (
             ratio *
             parseFloat(
-              ethers.utils.formatUnits(order?.erc20TokenAmount, token.decimals)
+              utils.formatUnits(order?.erc20TokenAmount, token.decimals)
             )
           );
         } else {

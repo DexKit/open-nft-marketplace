@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  staticPageGenerationTimeout: 10000,
+  staticPageGenerationTimeout: 120,
   images: {
     domains: [
       'dweb.link',
